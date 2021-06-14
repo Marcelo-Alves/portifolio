@@ -3,10 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class AdminContatoController extends Controller
 {
     public function index(){
-        return view('admin.admincontato');
+        $contato = DB::select('select * from contato');
+         //DB::table('contato')->get();
+        return view('admin.admincontato',["CONTATOS"=>$contato]);
     }
 }

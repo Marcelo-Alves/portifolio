@@ -14,25 +14,15 @@ Painel Contato
           <th>Data</th>
         </tr>
       </thead>
-      <tbody>
-        <tr>
-          <td>Kamylly</td>
-          <td>kamilly@email.com.br</td>
-          <td>Mensagem mensage Kamilly</td>
-          <td>{{date('d/m/Y H:i:s')}}</td>
-        </tr>
-        <tr>
-            <td>Michele</td>
-            <td>michele@email.com.br</td>
-            <td>Mensagem mensage Michele</td>
-            <td>{{date('d/m/Y H:i:s')}}</td>
-          </tr>
-          <tr>
-            <td>Kaike</td>
-            <td>kaike@email.com.br</td>
-            <td>Mensagem mensage Kaike</td>
-            <td>{{date('d/m/Y H:i:s')}}</td>
-          </tr>
+            <tbody>
+            @foreach ($CONTATOS as $contato)
+            <tr>
+              <td>{{$contato->nome}}</td>
+              <td>{{$contato->email}}</td>
+              <td>{{$contato->mensagem}}</td>
+              <td>{{date('d/m/Y H:i:s', strtotime($contato->data))}}</td>
+            </tr>                   
+            @endforeach
       </tbody>
     </table>
   

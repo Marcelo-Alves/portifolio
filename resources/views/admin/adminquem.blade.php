@@ -3,13 +3,14 @@
 Painel Quem Sou
 @endsection
 @section('adminconteudo')
-  <h1>Quem sou</h1>
-  <p>
-      Com mais de 20 anos de experiência na area de TI, sou formado em Tecnologia da Informação com MBA em Gestão Estratégica de TI <br>
-      pela Fundação Getúlio Vargas. A minha carreira foi desenvolvida em empresas de grande porte como Petrobras, <br>
-      Accenture e T-Systems e atualmente Locaweb.
-      Possuo experiência na reestruturação de equipes de TI, capacidade de liderança e motivação de equipes, <br>
-      habilidade para identificar problemas complexos e implantar soluções que agregam valor aos negócios. 
-  </p>
-  
+  @foreach($QUEM as $quem)
+    
+    <h1>{{$quem->TITULO}}</h1>
+    <p>
+        {{$quem->TEXTO}} <br>
+        Viste meu linkedin <a href="{{$quem->link}}" target="_blank">Marcelo Alves Moreira</a>
+    </p>
+
+  @endforeach
+
 @endsection

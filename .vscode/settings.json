@@ -12,6 +12,19 @@
             "name": "root",
             "database": "laravel",
             "username": "root"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "askForPassword": true,
+            "driver": "MySQL",
+            "name": "laravel",
+            "database": "laravel",
+            "username": "root"
         }
     ]
 }
