@@ -15,7 +15,8 @@ CONTATO
                 </p>
             </div>
         </section>
-        <form>
+        <form action="{{route('enviaremail')}}" method="POST">
+            {{ csrf_field() }}
             <div class="form-group">
                 <label for="txtnome">Nome</label>
                 <input type="text" class="form-control" id="txtnome" name="txtnome" placeholder="Digite seu nome">

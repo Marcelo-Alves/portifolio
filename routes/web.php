@@ -20,6 +20,7 @@ Route::get('/home',[PrincipalController::class,'index'])->name('site.home');
 Route::get('/busca',[PrincipalController::class,'busca'])->name('site.busca');
 Route::get('/quem',[QuemController::class,'index'])->name('site.quem');
 Route::get('/contato',[ContatoController::class,'index'])->name('site.contato');
+Route::post('/enviaremail',[ContatoController::class,'enviaremail'])->name('enviaremail');
 Route::get('/noticia',[NoticiaController::class,'index'])->name('site.noticia');
 Route::get('/painel',[HomeController::class,'index'])->name('admin.login');
 Route::get('/painel/principal', [AdminPrincipalController::class,'index'])->name('admin.principal');
