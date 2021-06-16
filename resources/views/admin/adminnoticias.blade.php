@@ -5,7 +5,7 @@ Painel Notícias
 @endsection
 
 @section('adminconteudo')
-<h1>Contato Admin</h1>
+<h1>Painel Notícias</h1>
 <div class="table-responsive">
     <table class="table table-striped">
       <thead>
@@ -22,21 +22,21 @@ Painel Notícias
           <td>Covid -19</td>
           <td>Mais de 350.000 morte pela codiv-19</td>
           <td>{{date('d/m/Y H:i:s')}}</td>
-          <td><a href='#'>Editar</a></td>
+          <td><a href='{{route('admin.adminnoticiaseditor')}}'>Editar</a></td>
           <td><a href='#'>Deletar</a></td>
         </tr>
         <tr>
           <td>Desemprego</td>
           <td>Auta histórica no desemprego</td>
           <td>{{date('d/m/Y H:i:s')}}</td>
-          <td><a href='#'>Editar</a></td>
+          <td><a href='{{route('admin.adminnoticiaseditor')}}'>Editar</a></td>
           <td><a href='#'>Deletar</a></td>
         </tr>
         <tr>
           <td>Cesta basíca mais cara</td>
           <td>Neste mês a cesta basíca terá aumento</td>
           <td>{{date('d/m/Y H:i:s')}}</td>
-          <td><a href='#'>Editar</a></td>
+          <td><a href='{{route('admin.adminnoticiaseditor')}}'>Editar</a></td>
           <td><a href='#'>Deletar</a></td>
         </tr>
       </tbody>

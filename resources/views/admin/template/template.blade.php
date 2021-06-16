@@ -7,11 +7,20 @@
     <meta name="description" content="">
     <meta name="author" content="Marcelo Alves">
     <title>@yield('admintitulo')</title>
+    <!-- CKEDITOR -->
+    <script src="{{asset('admin/js/ckeditor.js')}}" ></script>
     <!-- Bootstrap core CSS -->
     <link href="{{asset('admin/css/bootstrap.min.css')}}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="{{asset('admin/css/dashboard.css')}}" rel="stylesheet">
+
+    <style>
+      .ck-editor__editable_inline {
+          min-height: 400px;
+      }
+  </style>
+
   </head>
 
   <body cz-shortcut-listen="true">
@@ -60,5 +69,6 @@
     <script src="{{asset('admin/js/bootstrap.min.js')}}"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="{{asset('admin/js/ie10-viewport-bug-workaround.js')}}"></script>
+    
   </body>
 </html>
