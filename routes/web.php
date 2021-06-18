@@ -27,5 +27,7 @@ Route::get('/painel/principal', [AdminPrincipalController::class,'index'])->name
 Route::get('/painel/noticias', [AdminNotciasController::class,'index'])->name('admin.noticias');
 Route::get('/painel/noticias/editor', [AdminNotciasController::class,'editor'])->name('admin.adminnoticiaseditor');
 Route::get('/painel/quem', [AdminQuemController::class,'index'])->name('admin.quem');
+Route::get('/painel/quem/editor', [AdminQuemController::class,'editor'])->name('admin.quemeditor');
+Route::post('/painel/quem/editar', [AdminQuemController::class,'editar'])->name('admin.quemeditar');
 Route::get('/painel/contato', [AdminContatoController::class,'index'])->name('admin.contato');
     
