@@ -9,6 +9,7 @@ use App\Http\Controllers\AdminPrincipalController;
 use App\Http\Controllers\AdminContatoController;
 use App\Http\Controllers\AdminNotciasController;
 use App\Http\Controllers\AdminQuemController;
+use GuzzleHttp\Psr7\Request;
 
 /** Route::get('/', function () {    return view('welcome'); }); **/
 /*Route::get('/',function () { 
@@ -30,4 +31,6 @@ Route::get('/painel/quem', [AdminQuemController::class,'index'])->name('admin.qu
 Route::get('/painel/quem/editor', [AdminQuemController::class,'editor'])->name('admin.quemeditor');
 Route::post('/painel/quem/editar', [AdminQuemController::class,'editar'])->name('admin.quemeditar');
 Route::get('/painel/contato', [AdminContatoController::class,'index'])->name('admin.contato');
-    
+/*Route::post('/enviaremail/',function () { 
+       return dd($_REQUEST);
+     })->name('enviaremail'); */

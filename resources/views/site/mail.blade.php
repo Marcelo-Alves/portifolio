@@ -1,6 +1,5 @@
-
 <h1>Contato do site</h1>
 <p>
-    Logo entrarem em contato
+    Contato vindo do site. 
 </p>
 

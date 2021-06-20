@@ -6,11 +6,12 @@
     <meta name="description" content="Progrador PHP, CSS, HTML, Analista de Sistem, Analista Programador, Analista Desenvolvedor, Analista de dados">
     <meta name="author" content="Marcelo">
     <title>@yield('titulo')</title>
-    <!-- Principal CSS do Bootstrap -->
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+     <!-- Principal CSS do Bootstrap -->
+     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
 
-    <!-- Estilos customizados para esse template -->
-    <link rel="stylesheet" href="{{ asset('css/jumbotron.css') }}">
+     <!-- Estilos customizados para esse template -->
+     <link rel="stylesheet" href="{{ asset('css/jumbotron.css') }}">
+   
   </head>
   <body>    
     <div class="container">  
@@ -54,10 +55,10 @@
     <!-- Principal JavaScript do Bootstrap
     ================================================== -->
     <!-- Foi colocado no final para a página carregar mais rápido -->
-    <script src="{{asset('./js/jquery-3.3.1.slim.min.js')}}" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="{{asset('js/jquery-3.3.1.slim.min.js')}}" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="{{asset('js/jquery-3.3.1.slim.min.js')}}"><\/script>')</script>
-    <script src="{{asset('./js/popper.min.js')}}"></script>
-    <script src="{{asset('./js/bootstrap.min.js')}}"></script>
-    <script src="{{asset('./js/holder.min.js')}}"></script>
+    <script src="{{asset('js/popper.min.js')}}"></script>
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('js/holder.min.js')}}"></script>
   </body>
 </html>
