@@ -3,19 +3,14 @@
 @section('titulo')
 CONTATO
 @stop
-<meta name="csrf-token" content="{{ csrf_token() }}">
 @section('conteudo')
     <div class="container">
         <section class="jumbotron text-center">
             <div class="container">
-                <h1 class="jumbotron-heading">Contato </h1>
-                <p class="lead text-muted">
-                    Por favor entre em contato <br>
-                    E logo respoderei.
-                </p>
+                <h1 class="jumbotron-heading">Contato </h1>                
             </div>
         </section>
-        <div id="resp" name="resp"> </div>
+        <div id="resp" name="resp" role="alert"> </div>
         <form action="{{route('enviaremail')}}"  method="get">
             
             <div class="form-group">
@@ -28,7 +23,7 @@ CONTATO
             </div>
 
             <div class="form-group">
-                <label for="exampleFormControlTextarea1">Observação</label>
+                <label for="txtobservacao">Observação</label>
                 <textarea id="txtobservacao" name="txtobservacao" class="form-control" rows="3" placeholder="Observação"></textarea>
             </div>
             <div class="form-group">
@@ -38,31 +33,62 @@ CONTATO
 
     </div>
     <script>
-        var busca = function(){            
+        var busca = function(){      
+                document.getElementById('resp').className ="alert alert-secondary";
+                document.getElementById('resp').innerHTML='<h1>Processando .</h1>';
+
+                tnome = document.querySelector("#txtnome").value;
+                temail = document.querySelector("#txtemail").value;
+                tobservacao = document.querySelector("#txtobservacao").value;
+
+                if(tnome =="" || temail =="" ||tobservacao ==""){
+                    document.getElementById('resp').className ="alert alert-danger";
+                    document.getElementById('resp').innerHTML='<h3>Por favor <br> Preencha todos os campos .</h3>';
+                    return false;
+                }
+
                 var token ='{{csrf_token()}}'
                 const dados={
-                        
-                        nome:document.querySelector("#txtnome").value,
-                        email:document.querySelector("#txtemail").value,
-                        observacao:document.querySelector("#txtobservacao").value
+                        nome:tnome,
+                        email:temail,
+                        observacao:tobservacao
                 }
-            fetch("{{route('enviaremail')}}/",
-                {method:'POST',
-                mode:'cors',
-                headers:{
-                    'X-CSRF-TOKEN':token,
-                    'Content-Type':'application/json'
-                },
-                body:JSON.stringify(dados)           
-            })
-            .then(resposta => 
-                (if(resposta.text == 'success'){
-                    document.getElementById('resp').innerHTML='Contato Enviado com sucesso';
-                    document.querySelector("#txtnome").value='';
-                    document.querySelector("#txtemail").value='';
-                    document.querySelector("#txtobservacao").value='';
+                
+                document.getElementById('resp').className ="alert alert-secondary";
+                document.getElementById('resp').innerHTML='<h1>Processando ..</h1>';
+
+
+                const retorno = (resultado) => {
+                    document.getElementById('resp').className ="alert alert-secondary";
+                    document.getElementById('resp').innerHTML='<h1>Processando ..</h1>';
+                    
+                    if(resultado =='sucesso'){
+                        document.getElementById('resp').className ="alert alert-success";
+                        document.getElementById('resp').innerHTML='<h1>Contato Enviado com sucesso.</h1>';
+                        document.querySelector("#txtnome").value='';
+                        document.querySelector("#txtemail").value='';
+                        document.querySelector("#txtobservacao").value='';
+                        document.getElementById("btnenviar").disabled = "true";
+                    }
+                    else{
+                        document.getElementById('resp').className ="alert alert-danger";
+                        document.getElementById('resp').innerHTML='<h1>Erro ao enviar o contato.</h1>';
+                    }    
+                }
+
+                fetch("{{route('enviaremail')}}/",{
+                    method:'POST',
+                    mode:'cors',
+                    headers:{
+                        'X-CSRF-TOKEN':token,
+                        'Content-Type':'application/json'
+                    },
+                    body:JSON.stringify(dados)           
                 })
-            ));
+                .then(resposta => {  resposta.json()
+                    .then(ddado => {retorno(ddado.resposta)})                                
+                })  
+                .catch(retorno(ddado.resposta))                        
         }
     </script>
 
