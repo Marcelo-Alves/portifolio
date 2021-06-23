@@ -11,7 +11,7 @@ CONTATO
             </div>
         </section>
         <div id="resp" name="resp" role="alert"> </div>
-        <form action="{{route('enviaremail')}}"  method="get">
+        <form > 
             
             <div class="form-group">
                 <label for="txtnome">Nome</label>
@@ -53,12 +53,26 @@ CONTATO
                         email:temail,
                         observacao:tobservacao
                 }
-                
+                //?nome="+tnome+"&email="+temail+"&observacao="+tobservacao
                 document.getElementById('resp').className ="alert alert-secondary";
-                document.getElementById('resp').innerHTML='<h1>Processando ..</h1>';
+                document.getElementById('resp').innerHTML='<h1>Processando .</h1>';
 
 
-                const retorno = (resultado) => {
+               fetch("{{route('enviaremail')}}", {
+                            method:'POST',
+                            mode:'cors',
+                            headers:{
+                            'X-CSRF-TOKEN':token,
+                            'Content-Type':'application/json'
+                    },
+                    body:JSON.stringify(dados) 
+                        }
+                )
+                .then(resposta => {  resposta.json()
+                    .then(ddado => {retorno(ddado.resposta)})                                
+                })                     
+        }
+        const retorno = (resultado) => {
                     document.getElementById('resp').className ="alert alert-secondary";
                     document.getElementById('resp').innerHTML='<h1>Processando ..</h1>';
                     
@@ -75,21 +89,6 @@ CONTATO
                         document.getElementById('resp').innerHTML='<h1>Erro ao enviar o contato.</h1>';
                     }    
                 }
-
-                fetch("{{route('enviaremail')}}/",{
-                    method:'POST',
-                    mode:'cors',
-                    headers:{
-                        'X-CSRF-TOKEN':token,
-                        'Content-Type':'application/json'
-                    },
-                    body:JSON.stringify(dados)           
-                })
-                .then(resposta => {  resposta.json()
-                    .then(ddado => {retorno(ddado.resposta)})                                
-                })  
-                .catch(retorno(ddado.resposta))                        
-        }
     </script>
 
 
