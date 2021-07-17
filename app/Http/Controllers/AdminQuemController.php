@@ -16,7 +16,7 @@ class AdminQuemController extends Controller
             return view('admin.adminquem',['QUEM'=>$QUEM]);
         }
 
-        return redirect()->route(route:'admin.login'); //*/
+        return redirect()->route('admin.login'); //*/
         
     }
 
@@ -29,7 +29,7 @@ class AdminQuemController extends Controller
             return view('admin.adminquem',['QUEM'=>$QUEM]);
         }
 
-        return redirect()->route(route:'admin.login'); 
+        return redirect()->route('admin.login'); 
     }
 
     public function editar(Request $request){

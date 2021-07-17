@@ -29,5 +29,5 @@ Route::post('/painel/quem/editar', [AdminQuemController::class,'editar'])->name(
 Route::get('/painel/contato', [AdminContatoController::class,'index'])->name('admin.contato');
 Route::get('/painel/logout', function(){
   session()->flush();
-  return redirect()->route(route:'admin.login'); 
+  return redirect()->route('admin.login'); 
 })->name('admin.logout');

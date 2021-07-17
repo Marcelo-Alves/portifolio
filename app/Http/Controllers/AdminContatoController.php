@@ -13,7 +13,7 @@ class AdminContatoController extends Controller
             $contato = DB::select('select * from contato order by id desc');
             return view('admin.admincontato',["CONTATOS"=>$contato]);
         }
-        return redirect()->route(route:'admin.login'); //*/
+        return redirect()->route('admin.login'); //*/
 
 
         

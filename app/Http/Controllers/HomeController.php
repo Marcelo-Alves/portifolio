@@ -28,11 +28,11 @@ class HomeController extends Controller
                 'senha'=>$banco[0]->senha
             ];
             session()->put($busca_usuario);
-            return redirect()->route(route:'admin.principal'); 
+            return redirect()->route('admin.principal'); 
 
         }
         else{
-            return redirect()->route(route:'admin.login'); 
+            return redirect()->route('admin.login'); 
         }
              
        

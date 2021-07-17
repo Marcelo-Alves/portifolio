@@ -12,7 +12,7 @@ class AdminNotciasController extends Controller
             
             return view('admin.adminnoticias');
         }
-        return redirect()->route(route:'admin.login'); //*/
+        return redirect()->route('admin.login'); //*/
     }
 
     public function editor(){

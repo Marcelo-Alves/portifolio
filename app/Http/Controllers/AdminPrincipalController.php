@@ -12,6 +12,6 @@ class AdminPrincipalController extends Controller
         if(session()->get('id')){
             return view('admin.adminprincipal');
         }
-        return redirect()->route(route:'admin.login'); //*/
+        return redirect()->route('admin.login'); //*/
     }
 }
