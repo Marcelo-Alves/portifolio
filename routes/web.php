@@ -11,11 +11,6 @@ use App\Http\Controllers\AdminNotciasController;
 use App\Http\Controllers\AdminQuemController;
 use GuzzleHttp\Psr7\Request;
 
-/** Route::get('/', function () {    return view('welcome'); }); **/
-/*Route::get('/',function () { 
-    return view('principal');
-});*/
-
 Route::get('/',[PrincipalController::class,'index'])->name('site.home');
 Route::get('/home',[PrincipalController::class,'index'])->name('site.home');
 Route::get('/busca',[PrincipalController::class,'busca'])->name('site.busca');
@@ -24,6 +19,7 @@ Route::get('/contato',[ContatoController::class,'index'])->name('site.contato');
 Route::post('/enviaremail',[ContatoController::class,'enviaremail'])->name('enviaremail');
 Route::get('/noticia',[NoticiaController::class,'index'])->name('site.noticia');
 Route::get('/painel',[HomeController::class,'index'])->name('admin.login');
+Route::post('/painel/logar',[HomeController::class,'logar'])->name('admin.logar');
 Route::get('/painel/principal', [AdminPrincipalController::class,'index'])->name('admin.principal');
 Route::get('/painel/noticias', [AdminNotciasController::class,'index'])->name('admin.noticias');
 Route::get('/painel/noticias/editor', [AdminNotciasController::class,'editor'])->name('admin.adminnoticiaseditor');
@@ -31,6 +27,7 @@ Route::get('/painel/quem', [AdminQuemController::class,'index'])->name('admin.qu
 Route::get('/painel/quem/editor', [AdminQuemController::class,'editor'])->name('admin.quemeditor');
 Route::post('/painel/quem/editar', [AdminQuemController::class,'editar'])->name('admin.quemeditar');
 Route::get('/painel/contato', [AdminContatoController::class,'index'])->name('admin.contato');
-/*Route::post('/enviaremail/',function () { 
-       return dd($_REQUEST);
-     })->name('enviaremail'); */
+Route::get('/painel/logout', function(){
+  session()->flush();
+  return redirect()->route(route:'admin.login'); 
+})->name('admin.logout');

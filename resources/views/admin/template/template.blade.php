@@ -28,7 +28,7 @@
         <button class="navbar-toggler navbar-toggler-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="{{route('admin.noticias')}}">Principal</a>
+        <a class="navbar-brand" href="{{route('admin.principal')}}">Principal</a>
   
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
           
@@ -49,7 +49,7 @@
               <a class="nav-link" href="{{route('admin.contato')}}">Contato</a>
             </li>  
             <li class="nav-item">
-                <a class="nav-link" href="{{route('admin.login')}}">Sair</a>
+                <a class="nav-link" href="{{route('admin.logout')}}">Sair</a>
               </li>  
           </ul>          
         </nav>

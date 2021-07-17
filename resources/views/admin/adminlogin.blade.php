@@ -7,12 +7,12 @@
         <meta name="author" content="Marcelo Alves">
         <title>Login painel</title>
         <!-- Bootstrap core CSS -->
-        <link href="http://localhost/admin/css/bootstrap.min.css" rel="stylesheet">
+        <link href="{{ URL::to('admin/css/bootstrap.min.css') }}" rel="stylesheet">
         <style>
         /* BASIC */
 
-            html {
-            background-color: #56baed;
+        html {
+            background-color: #56baed !important;
             }
 
             body {
@@ -125,7 +125,7 @@
             transform: scale(0.95);
             }
 
-            input[type=text] {
+            input[type=email], input[type=password] {
             background-color: #f6f6f6;
             border: none;
             color: #0d0d0d;
@@ -146,12 +146,12 @@
             border-radius: 5px 5px 5px 5px;
             }
 
-            input[type=text]:focus {
+            input[type=email], input[type=password]:focus {
             background-color: #fff;
             border-bottom: 2px solid #5fbae9;
             }
 
-            input[type=text]:placeholder {
+            input[type=email], input[type=password]:placeholder {
             color: #cccccc;
             }
 
@@ -182,7 +182,7 @@
             }
             }
 
-            @keyframes fadeInDown {
+            @keyframes  fadeInDown {
             0% {
                 opacity: 0;
                 -webkit-transform: translate3d(0, -100%, 0);
@@ -198,7 +198,7 @@
             /* Simple CSS3 Fade-in Animation */
             @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
             @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-            @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+            @keyframes  fadeIn { from { opacity:0; } to { opacity:1; } }
 
             .fadeIn {
             opacity:0;
@@ -271,6 +271,7 @@
             width:60%;
             }
 
+
         </style>
         
       </head>
@@ -282,9 +283,10 @@
       <!-- Tabs Titles -->
   
       <!-- Login Form -->
-      <form>
-        <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
-        <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+      <form method="POST" action="{{route('admin.logar')}}">
+        @csrf
+        <input type="email" id="email" class="fadeIn second" name="email" placeholder="email">
+        <input type="password" id="senha" class="fadeIn third" name="senha" placeholder="Senha">
         <input type="submit" class="fadeIn fourth" value="Log In">
       </form>
     
@@ -294,11 +296,11 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="http://localhost/admin/js/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="http://localhost/admin/js/jquery-3.3.1.slim.min.js"><\/script>')</script>
-    <script src="http://localhost/admin/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="http://localhost/admin/js/bootstrap.min.js"></script>
+    <script src="{{ URL::to('admin/js/jquery-3.3.1.slim.min.js')}}" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="{{ URL::to('admin/js/jquery-3.3.1.slim.min.js')}}"><\/script>')</script>
+    <script src="{{ URL::to('admin/js/tether.min.js')}}" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="{{ URL::to('admin/js/bootstrap.min.js')}}"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="http://localhost/admin/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="{{ URL::to('admin/js/ie10-viewport-bug-workaround.js')}}"></script>
   </body>
 </html>

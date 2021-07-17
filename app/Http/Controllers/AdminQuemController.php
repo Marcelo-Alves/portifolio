@@ -10,18 +10,26 @@ class AdminQuemController extends Controller
 {
     public function index(){
 
+        if(session()->get('id')){
+            
+            $QUEM = DB::table('quem')->get();
+            return view('admin.adminquem',['QUEM'=>$QUEM]);
+        }
 
-        $QUEM = DB::table('quem')->get();
-
-        return view('admin.adminquem',['QUEM'=>$QUEM]);
+        return redirect()->route(route:'admin.login'); //*/
+        
     }
 
 
     public function editor(){
 
-        $QUEM = DB::table('quem')->get();
+        if(session()->get('id')){
+            
+            $QUEM = DB::table('quem')->get();
+            return view('admin.adminquem',['QUEM'=>$QUEM]);
+        }
 
-        return view('admin.adminquemeditor',['QUEM'=>$QUEM]);
+        return redirect()->route(route:'admin.login'); 
     }
 
     public function editar(Request $request){
