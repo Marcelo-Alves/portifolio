@@ -1,0 +1,71 @@
+ PMA_token |s:32:"7b537e6b6747556d3a533931556b6845"; HMAC_secret |s:16:"{AfO%)<2sp}:d-{M";auth_type|s:3:"env";browser_access_time|a:3:{s:7:"default";i:1623939203;s:36:"1dbf8a57-7525-19f7-3edd-c9c9caedbd0b";i:1623866158;s:36:"fe9de3f8-24d0-6c86-ef44-6809ae64c2dd";i:1623935462;}encryption_key|s:32:"nG¿/i˜g´¶}c1êÛ|WwJ…_O¬û±?qhD";relation|a:1:{i:1;a:22:{s:11:"PMA_VERSION";s:5:"4.9.4";s:7:"relwork";b:0;s:11:"displaywork";b:0;s:12:"bookmarkwork";b:0;s:7:"pdfwork";b:0;s:8:"commwork";b:0;s:8:"mimework";b:0;s:11:"historywork";b:0;s:10:"recentwork";b:0;s:12:"favoritework";b:0;s:11:"uiprefswork";b:0;s:12:"trackingwork";b:0;s:14:"userconfigwork";b:0;s:9:"menuswork";b:0;s:7:"navwork";b:0;s:17:"savedsearcheswork";b:0;s:18:"centralcolumnswork";b:0;s:20:"designersettingswork";b:0;s:19:"exporttemplateswork";b:0;s:8:"allworks";b:0;s:4:"user";N;s:2:"db";N;}}cache|a:2:{s:19:"server_1_marcroscom";a:18:{s:14:"mysql_cur_user";s:20:"marcroscom@localhost";s:17:"is_create_db_priv";b:0;s:14:"is_reload_priv";b:0;s:12:"db_to_create";s:0:"";s:30:"dbs_where_create_table_allowed";a:0:{}s:11:"dbs_to_test";b:0;s:9:"proc_priv";b:0;s:10:"table_priv";b:0;s:8:"col_priv";b:0;s:7:"db_priv";b:0;s:12:"is_grantuser";b:0;s:13:"is_createuser";b:0;s:12:"is_superuser";b:0;s:11:"binary_logs";a:0:{}s:18:"menu-levels-server";a:13:{s:9:"databases";s:15:"Bancos de dados";s:3:"sql";s:3:"SQL";s:6:"status";s:6:"Status";s:6:"rights";s:9:"UsuÃ¡rios";s:6:"export";s:8:"Exportar";s:6:"import";s:8:"Importar";s:8:"settings";s:15:"ConfiguraÃ§Ãµes";s:6:"binlog";s:12:"Log binÃ¡rio";s:11:"replication";s:12:"ReplicaÃ§Ã£o";s:4:"vars";s:10:"VariÃ¡veis";s:7:"charset";s:8:"Charsets";s:7:"plugins";s:7:"Plugins";s:6:"engine";s:7:"Motores";}s:14:"menu-levels-db";a:14:{s:9:"structure";s:9:"Estrutura";s:3:"sql";s:3:"SQL";s:6:"search";s:8:"Procurar";s:5:"query";s:8:"Consulta";s:6:"export";s:8:"Exportar";s:6:"import";s:8:"Importar";s:9:"operation";s:11:"OperaÃ§Ãµes";s:10:"privileges";s:12:"PrivilÃ©gios";s:8:"routines";s:7:"Rotinas";s:6:"events";s:7:"Eventos";s:8:"triggers";s:8:"Gatilhos";s:8:"tracking";s:13:"Monitoramento";s:8:"designer";s:8:"Designer";s:15:"central_columns";s:16:"Colunas centrais";}s:19:"profiling_supported";b:1;s:17:"menu-levels-table";a:11:{s:6:"browse";s:10:"Visualizar";s:9:"structure";s:9:"Estrutura";s:3:"sql";s:3:"SQL";s:6:"search";s:8:"Procurar";s:6:"insert";s:7:"Inserir";s:6:"export";s:8:"Exportar";s:6:"import";s:8:"Importar";s:10:"privileges";s:12:"PrivilÃ©gios";s:9:"operation";s:11:"OperaÃ§Ãµes";s:8:"tracking";s:13:"Monitoramento";s:8:"triggers";s:8:"Gatilhos";}}s:8:"server_1";a:4:{s:15:"userprefs_mtime";i:1623939203;s:14:"userprefs_type";s:7:"session";s:12:"config_mtime";i:1582822543;s:9:"userprefs";a:2:{s:4:"lang";s:5:"pt_BR";s:7:"Console";a:1:{s:4:"Mode";s:8:"collapse";}}}}userconfig|a:2:{s:2:"db";a:2:{s:4:"lang";s:5:"pt_BR";s:12:"Console/Mode";s:8:"collapse";}s:2:"ts";i:1623939203;}two_factor_check|b:1;git_location|N;is_git_revision|b:0;tmpval|a:15:{s:15:"favorite_tables";a:1:{i:1;a:0:{}}s:13:"recent_tables";a:1:{i:1;a:1:{i:0;a:2:{s:2:"db";s:16:"marcrosc_laravel";s:5:"table";s:4:"quem";}}}s:5:"query";a:10:{s:32:"535de63e3dc7a4141a817d09a8d45fb6";a:8:{s:3:"sql";s:64:"/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"65cc52af3a57bea57b002e22b4d27edc";a:8:{s:3:"sql";s:29:"/*!40101 SET NAMES utf8mb4 */";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"68b9eb038bf0ec75c55d3eeb917dc1c4";a:8:{s:3:"sql";s:435:"--
+-- Banco de dados: `marcelo_laravel`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura para tabela `quem`
+--
+
+CREATE TABLE `quem` (
+  `id`  int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `TITULO` varchar(120) COLLATE utf8_unicode_ci NOT NULL,
+  `TEXTO` text COLLATE utf8_unicode_ci NOT NULL,
+  `resumo` text COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"a6412e5a9c8249ddabd011632822e97a";a:8:{s:3:"sql";s:291:"CREATE TABLE `quem` (
+  `id`  int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `TITULO` varchar(120) COLLATE utf8_unicode_ci NOT NULL,
+  `TEXTO` text COLLATE utf8_unicode_ci NOT NULL,
+  `resumo` text COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"5737909b0d1706e1f9c69d605b7e71a8";a:8:{s:3:"sql";s:117:"--
+-- Ãndices de tabelas apagadas
+--
+
+--
+-- Ãndices de tabela `quem`
+--
+ALTER TABLE `quem`
+  ADD PRIMARY KEY (`id`)";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"8506e7a0d483f17c9f23e9eb727425b7";a:8:{s:3:"sql";s:140:"create table contato(
+id int(11) primary key auto_increment not null,
+nome varchar(120),
+email varchar(120),
+mensagem text,
+data timestamp )";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"5eeb38e1709ab48fc20c51e9f4f1d2fd";a:8:{s:3:"sql";s:20:"SELECT * FROM `quem`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";s:1:"0";s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"68bab9e9089feaf9ace4db3df29b96b9";a:8:{s:3:"sql";s:15:"drop table quem";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";s:1:"0";s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"14e39f3cab015fd78284eef730938433";a:8:{s:3:"sql";s:522:"CREATE TABLE `quem` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `TITULO` varchar(120) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `TEXTO` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `resumo` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `link` varchar(120) COLLATE utf8_unicode_ci NOT NULL,
+  `nome` varchar(80) COLLATE utf8_unicode_ci NOT NULL,
+  `data` timestamp NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb3 COLLATE=utf8_unicode_ci";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";s:1:"0";s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"a73a19f310cc8e708e4a82a3bf85e2de";a:8:{s:3:"sql";s:1797:"INSERT INTO quem(id,TITULO,TEXTO,resumo,link,nome,data) VALUES(1,'Quem Sou',X'436f6d206d61697320646520323020616e6f7320646520657870657269c3aa6e636961206e6120617265612064652054492c20736f7520666f726d61646f20656d205465636e6f6c6f67696120646120496e666f726d61c3a7c3a36f2e2041206d696e686120636172726569726120666f6920646573656e766f6c7669646120656d20656d70726573617320636f6d6f20436f727265696f732c20617574c3a17271756961206465205361c3ba64652064652049746170656365726963612064612053657272612c204e444f542e636f6d2c205368697a656e20436f6d756e696361c3a7c3a36f2057656220496e746567726164612c20476c6f62616c20486974732c205769736520436f6e73756c746f7269612c2052656672696f2041726d617ac3a96e732c206574632e20506f7373756f20657870657269c3aa6e636961206e61207265657374727574757261c3a7c3a36f20646520657175697065732064652054492c2063617061636964616465206465206c69646572616ec3a7612065206d6f74697661c3a7c3a36f20646520657175697065732c20686162696c69646164652070617261206964656e746966696361722070726f626c656d617320636f6d706c65786f73206520696d706c616e74617220736f6c75c3a7c3b5657320717565206167726567616d2076616c6f7220616f73206e6567c3b363696f732e',X'436f6d206d61697320646520323020616e6f7320646520657870657269c3aa6e636961206e6120617265612064652054492c20736f7520666f726d61646f20656d205465636e6f6c6f67696120646120496e666f726d61c3a7c3a36f2e2041206d696e686120636172726569726120666f6920646573656e766f6c7669646120656d20656d70726573617320636f6d6f20436f727265696f732c20617574c3a17271756961206465205361c3ba64652064652049746170656365726963612064612053657272612c204e444f542e636f6d2c205368697a656e20436f6d756e696361c3a7c3a36f2057656220496e746567726164612c20476c6f62616c20486974732c205769736520436f6e73756c746f7269612c2052656672696f2041726d617ac3a96e732c206574632e','https://www.linkedin.com/in/marcelo-alves-analista/','Linkedin','0000-00-00 00:00:00')";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}}s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;s:12:"display_blob";b:0;s:19:"hide_transformation";b:0;s:3:"pos";i:0;s:8:"max_rows";i:25;s:12:"repeat_cells";i:100;s:18:"table_limit_offset";i:0;s:21:"table_limit_offset_db";s:16:"marcrosc_laravel";s:13:"table_uiprefs";a:1:{i:1;a:1:{s:16:"marcrosc_laravel";a:1:{s:4:"quem";a:0:{}}}}}ConfigFile1|a:4:{s:28:"PmaNoRelation_DisableWarning";b:1;s:12:"ShowCreateDb";b:0;s:7:"Console";a:1:{s:4:"Mode";s:8:"collapse";}s:7:"Servers";a:1:{i:1;a:2:{s:7:"only_db";s:0:"";s:7:"hide_db";s:0:"";}}}debug|a:0:{}Import_message|a:2:{s:7:"message";N;s:11:"go_back_url";s:45:"db_sql.php?db=marcrosc_laravel&amp;table=quem";}is_multi_query|b:1;__upload_status|a:1:{s:7:"handler";s:47:"PhpMyAdmin\Plugins\Import\Upload\UploadNoplugin";}sql_history|a:6:{i:0;a:3:{s:2:"db";s:0:"";s:5:"table";s:0:"";s:8:"sqlquery";s:435:"--
+-- Banco de dados: `marcelo_laravel`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura para tabela `quem`
+--
+
+CREATE TABLE `quem` (
+  `id`  int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `TITULO` varchar(120) COLLATE utf8_unicode_ci NOT NULL,
+  `TEXTO` text COLLATE utf8_unicode_ci NOT NULL,
+  `resumo` text COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci";}i:1;a:3:{s:2:"db";s:16:"marcrosc_laravel";s:5:"table";s:0:"";s:8:"sqlquery";s:117:"--
+-- Ãndices de tabelas apagadas
+--
+
+--
+-- Ãndices de tabela `quem`
+--
+ALTER TABLE `quem`
+  ADD PRIMARY KEY (`id`)";}i:2;a:3:{s:2:"db";s:16:"marcrosc_laravel";s:5:"table";s:4:"quem";s:8:"sqlquery";s:20:"SELECT * FROM `quem`";}i:3;a:3:{s:2:"db";s:16:"marcrosc_laravel";s:5:"table";s:4:"quem";s:8:"sqlquery";s:140:"create table contato(
+id int(11) primary key auto_increment not null,
+nome varchar(120),
+email varchar(120),
+mensagem text,
+data timestamp )";}i:4;a:3:{s:2:"db";s:16:"marcrosc_laravel";s:5:"table";s:4:"quem";s:8:"sqlquery";s:20:"SELECT * FROM `quem`";}i:5;a:3:{s:2:"db";s:16:"marcrosc_laravel";s:5:"table";s:4:"quem";s:8:"sqlquery";s:15:"drop table quem";}}sql_from_query_box|b:1;errors|a:0:{}

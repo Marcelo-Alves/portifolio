@@ -1,0 +1,371 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202107 will be lost/reset.
+# Last config file used to build this data file was /home/marcroscom/tmp/awstats/awstats.marcros.com.br.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2013                
+POS_TIME 2691                
+POS_VISITOR 9213                
+POS_DAY 10653               
+POS_DOMAIN 3333                
+POS_LOGIN 3653                
+POS_ROBOT 3808                
+POS_WORMS 4112                
+POS_EMAILSENDER 4243                
+POS_EMAILRECEIVER 4386                
+POS_SESSION 10907               
+POS_SIDER 11064               
+POS_FILETYPES 4521                
+POS_DOWNLOADS 4675                
+POS_OS 4723                
+POS_BROWSER 4893                
+POS_SCREENSIZE 5421                
+POS_UNKNOWNREFERER 5495                
+POS_UNKNOWNREFERERBROWSER 6170                
+POS_ORIGIN 6755                
+POS_SEREFERRALS 6888                
+POS_PAGEREFS 7032                
+POS_SEARCHWORDS 7180                
+POS_KEYWORDS 7332                
+POS_MISC 2355                
+POS_ERRORS 7391                
+POS_CLUSTER 3509                
+POS_SIDER_404 7493                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210709000637 49 10412 9815773483692
+FirstTime 20210701142008
+LastTime 20210709000637
+LastUpdate 20210709001611 49 0 49 0 0
+TotalVisits 43                  
+TotalUnique 34                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 35                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 8 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 6 8 201701 2 2 13218
+1 2 2 12233 4 9 52872
+2 0 1 37501 8 12 79308
+3 0 0 0 8 10 71714
+4 0 0 0 4 4 32060
+5 6 6 68237 20 21 138789
+6 3 3 19305 2 7 31147
+7 2 2 24570 11 14 79356
+8 0 0 0 7 10 66090
+9 1 1 12233 0 0 0
+10 0 0 0 1 2 12309
+11 0 0 0 0 0 0
+12 0 0 0 1 1 6609
+13 2 2 24466 2 3 13242
+14 13 20 499654 24 24 158616
+15 2 2 24531 2 2 13218
+16 0 0 0 0 0 0
+17 0 0 0 2 2 13218
+18 8 8 97864 17 21 112353
+19 3 3 36699 23 24 157655
+20 7 14 434060 0 1 0
+21 2 2 24531 1 2 6609
+22 1 1 12233 2 2 6909
+23 1 1 12285 7 11 72699
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+us 22 22 257075
+br 15 22 531924
+il 6 9 239254
+ru 6 13 403636
+no 3 3 36699
+gr 3 3 36816
+hu 3 3 36699
+in 1 1 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+Googlebot/ 5 36799 20210705060802 2
+unknown 3 72 20210707133606 3
+no_user_agent 2 24466 20210706040433 0
+bingbot/ 2 48 20210701074609 2
+YandexBot/ 2 12257 20210703194242 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+css 6 425022 0 0
+jpg 3 112503 0 0
+html 48 563173 0 0
+js 8 347148 0 0
+Unknown 11 94257 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+macosx 1 1
+win8 1 0
+win7 11 10
+Unknown 10 10
+win10 22 15
+macosx7 1 0
+macosx9 3 3
+winlong 1 1
+linux 26 19
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 23
+Unknown 9 9
+chrome25.0.1364.172 1 1
+mozilla 1 1
+chrome61.0.3163.79 1 1
+safari7.0.1 1 1
+firefox27.0 1 0
+chrome35.0.1916.47 1 1
+chrome63.0.3239.132 4 4
+chrome91.0.4472.77 13 6
+chrome72.0.3626.121 1 1
+chrome51.0.2704.103 1 1
+chrome31.0.1650.63 2 1
+chrome43.0.2376.69 2 2
+opera77.0.4054.146 8 1
+chrome89.0.4389.90 1 1
+firefox26.0 3 3
+chrome84.0.4147.105 1 1
+chrome80.0.3987.149 3 3
+chrome73.0.3683.103 1 1
+chrome83.0.4103.97 9 9
+msie9.0 8 8
+chrome88.0.4240.193 3 3
+firefox31.0 1 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210705191431
+Embarcadero_URI_Client/1.0 20210705051546
+python-requests/2.25.1 20210701151747
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210707050509
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20210701214430
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+Embarcadero_URI_Client/1.0 20210705051546
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210705191431
+python-requests/2.25.1 20210701151747
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210707050509
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 52 53
+From1 0 0
+From2 0 0
+From3 0 0
+From4 7 23
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+301 1 300
+404 161 1064049
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 41
+/wp/wp-includes/wlwmanifest.xml 4 -
+/2018/wp-includes/wlwmanifest.xml 3 -
+/sitemaps.xml 8 -
+/2019/wp-includes/wlwmanifest.xml 2 -
+/sitemap.xml 10 -
+/sitemap_index.xml 10 -
+/wordpress/wp-load.php 1 marcros.com.br
+/cms/wp-includes/wlwmanifest.xml 4 -
+/administrator/index.php 1 -
+/wordpress/admin.php 1 marcros.com.br
+/wp-includes/wlwmanifest.xml 4 -
+/wordpress/wp-includes/wlwmanifest.xml 4 -
+/wordpress/wp-content/db-cache.php 1 marcros.com.br
+/sitemap.xml.gz 10 -
+/2015/wp-includes/wlwmanifest.xml 2 -
+/shop/wp-includes/wlwmanifest.xml 4 -
+/sitemap.txt 8 -
+/wp-login.php 18 -
+/news/wp-includes/wlwmanifest.xml 4 -
+/wordpress/style.php 1 marcros.com.br
+/wordpress/wp-stream.php 1 marcros.com.br
+/wordpress/wp-content/uploads/wp-logout.php 1 marcros.com.br
+/xmlrpc.php 4 -
+/blog/wp-includes/wlwmanifest.xml 4 -
+/wp2/wp-includes/wlwmanifest.xml 4 -
+/admin/ 1 -
+/2016/wp-includes/wlwmanifest.xml 2 -
+/humans.txt 1 -
+/media/wp-includes/wlwmanifest.xml 3 -
+/.env 1 -
+/2017/wp-includes/wlwmanifest.xml 2 -
+/wordpress/wp-content/plugins/wp-user-avatar/assets/css/hint.min.css 1 marcros.com.br
+/web/wp-includes/wlwmanifest.xml 4 -
+/wp1/wp-includes/wlwmanifest.xml 4 -
+/sito/wp-includes/wlwmanifest.xml 4 -
+/website/wp-includes/wlwmanifest.xml 4 -
+/site/wp-includes/wlwmanifest.xml 4 -
+/test/wp-includes/wlwmanifest.xml 4 -
+/atom.xml 10 -
+/2020/wp-includes/wlwmanifest.xml 1 -
+/wordpress/old-index.php 1 marcros.com.br
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 35
+186.202.173.147 8 8 97864 20210708145904
+179.213.68.92 6 13 421827 20210706205852
+216.128.143.86 4 4 48932 20210703143139
+82.80.249.219 4 6 177183 20210702005058
+134.119.184.170 3 3 36699 20210708184224
+31.210.20.31 3 3 36699 20210708055250
+195.88.208.231 2 2 7072 20210708061059
+82.80.230.228 2 2 24570 20210702005033
+185.229.243.54 2 2 19305 20210705051546
+34.77.162.2 1 1 12233 20210702131651
+54.188.137.86 1 1 12233 20210705212956
+186.202.163.106 1 1 12233 20210707204755
+54.244.31.249 1 1 12233 20210706182543
+54.244.38.79 1 1 12233 20210703184614
+212.192.241.68 1 1 12233 20210701151747
+207.180.230.64 1 1 12298 20210707154554
+92.118.160.17 1 1 12285 20210704075334
+34.217.0.201 1 1 12233 20210702183846
+34.96.130.13 1 1 12285 20210703070353
+34.216.123.78 1 1 12233 20210703185327
+18.194.104.120 1 1 0 20210708143427
+77.222.98.103 1 8 365026 20210701142008
+159.65.180.3 1 1 12233 20210706060608
+54.201.167.73 1 1 12233 20210702010514
+34.212.163.65 1 1 12233 20210709000637 20210709000637 /
+82.80.249.143 0 1 37501 
+92.118.160.61 1 1 12233 20210705191431
+54.149.174.128 1 1 12233 20210707221508
+34.210.151.224 1 1 12233 20210702183905
+18.118.25.92 1 1 12233 20210707133603
+34.132.222.163 1 1 12233 20210702095754
+34.77.162.21 1 1 12233 20210707050509
+45.129.18.86 1 1 0 20210708013912
+45.55.63.252 1 1 12298 20210701214430
+92.118.160.37 1 1 12298 20210703140738
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 9
+20210701 5 12 414075 5
+20210702 13 16 324833 9
+20210703 7 7 85748 6
+20210704 2 2 24518 2
+20210705 5 5 56004 4
+20210706 9 16 458526 4
+20210707 6 6 73463 6
+20210708 11 11 92703 6
+20210709 1 1 12233 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+30s-2mn 1
+0s-30s 41
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/ 48 563173 41 39
+/contato 5 28340 2 2
+/home 2 24530 0 0
+/quem 2 7482 0 0
+/enviaremail 1 22 0 0
+/cpanel 1 33883 0 1
+END_SIDER

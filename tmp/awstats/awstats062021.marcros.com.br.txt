@@ -1,0 +1,733 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202106 will be lost/reset.
+# Last config file used to build this data file was /home/marcroscom/tmp/awstats/awstats.marcros.com.br.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2013                
+POS_TIME 2686                
+POS_VISITOR 18882               
+POS_DAY 21788               
+POS_DOMAIN 3409                
+POS_LOGIN 3764                
+POS_ROBOT 3919                
+POS_WORMS 4287                
+POS_EMAILSENDER 4418                
+POS_EMAILRECEIVER 4561                
+POS_SESSION 22216               
+POS_SIDER 22422               
+POS_FILETYPES 4696                
+POS_DOWNLOADS 4891                
+POS_OS 6240                
+POS_BROWSER 6463                
+POS_SCREENSIZE 7273                
+POS_UNKNOWNREFERER 7347                
+POS_UNKNOWNREFERERBROWSER 7948                
+POS_ORIGIN 8544                
+POS_SEREFERRALS 8681                
+POS_PAGEREFS 8844                
+POS_SEARCHWORDS 8992                
+POS_KEYWORDS 9144                
+POS_MISC 2349                
+POS_ERRORS 9203                
+POS_CLUSTER 3620                
+POS_SIDER_404 9338                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210701052042 1 0 18008736571911
+FirstTime 20210615204908
+LastTime 20210630145611
+LastUpdate 20210701231734 1 0 0 0 0
+TotalVisits 102                 
+TotalUnique 70                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 75                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 49 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5 28 1001918 0 1 24
+1 0 0 0 0 0 0
+2 4 26 206504 6 15 367279
+3 3 3 13654 7 13 340795
+4 3 3 36881 0 2 6633
+5 0 0 0 1 2 6609
+6 7 38 1333008 21 26 1717812
+7 15 47 1781444 61 69 870252
+8 18 49 1383699 32 41 186534
+9 5 5 104465 5 8 51296
+10 1 1 12233 4 5 33045
+11 15 22 171694 114 249 1517094
+12 0 0 0 3 5 31123
+13 4 25 1742932 5 7 38669
+14 29 102 5046114 37 42 1804802
+15 2 2 24466 6 6 39654
+16 1 1 12233 5 5 33045
+17 10 17 450204 2 3 18842
+18 19 19 232425 1 15 327549
+19 8 15 69283 11 26 884573
+20 9 19 88907 58 59 200538
+21 15 36 154257 3 9 33069
+22 8 30 999879 5 7 44293
+23 1 1 12298 6 21 748666
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 10
+br 101 331 12458148
+us 53 101 993671
+cn 11 14 314149
+ca 6 29 1014267
+gr 4 4 49049
+de 2 2 12233
+ru 2 2 12233
+se 1 1 12233
+in 1 1 0
+gb 1 4 12515
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+Googlebot/ 45 1748393 20210630192715 4
+bingbot/ 13 327669 20210626191034 6
+unknown 4 96 20210629112523 4
+no_user_agent 3 36699 20210628225600 0
+YandexBot/ 2 12257 20210619124407 1
+(firefox/)([0-9]\.|[0-1][0]\.) 1 12233 20210626192452 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 68 3970555 0 0
+txt 43 3103 0 0
+php 5 61415 0 0
+html 105 1110089 0 0
+Unknown 72 591389 0 0
+jpg 34 937525 0 0
+js 162 8204422 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 18
+/.well-known/pki-validation/AE3351A5B97FF6F09D0734F27D2FC0AF.txt 18 0 1386
+/.well-known/pki-validation/37E3658D6DB9305A56F437562CF1C062.txt 9 0 693
+/.well-known/pki-validation/4634FE7202A33A93BC76E705867A501F.txt 1 0 64
+/.well-known/pki-validation/CF317647353153AF5CBB56E244193603.txt 1 0 64
+/.well-known/pki-validation/F30273FA5C4465FE83CD9B037DF65045.txt 1 0 64
+/.well-known/pki-validation/23928426AAB0C91F8815B972BB461DA4.txt 1 0 64
+/.well-known/pki-validation/371FDA71CD716B96AA3D4F6EBC8294B2.txt 1 0 64
+/.well-known/pki-validation/880B78CA142EE36D472F270C2763C8B5.txt 1 0 64
+/.well-known/pki-validation/E13B6F0023F876A7EDCCFB27589DF588.txt 1 0 64
+/.well-known/pki-validation/2A2D40A816CE84685AA17E0E63E5C4C9.txt 1 0 64
+/.well-known/pki-validation/F777B3344C40820AB55855D8E12FA684.txt 1 0 64
+/.well-known/pki-validation/47A52ABCBBBE38B5EF5BFCFF2146B92F.txt 1 0 64
+/.well-known/pki-validation/CB6F520DADAD7FA5CFFFB5682FA41C1A.txt 1 0 64
+/.well-known/pki-validation/A9988952F60866F372C5A6581B83BAD8.txt 1 0 64
+/.well-known/pki-validation/C50DBE6062FB0D1ABEFEB03ADC733FF6.txt 1 0 64
+/.well-known/pki-validation/62DC3236AB50D7C032220930353F9A66.txt 1 0 64
+/.well-known/pki-validation/EDE6D69E3FE9554FE1B30CFA5B81F124.txt 1 0 64
+/.well-known/pki-validation/EAF3AC430BC0A5EA16F97976034459BF.txt 1 0 64
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+macosx8 1 1
+macosx9 10 10
+win10 47 17
+macosx 3 3
+linuxandroid 56 25
+macosx10 2 2
+win7 21 21
+winxp 3 3
+Unknown 60 17
+linux 283 80
+ios_iphone 2 2
+winvista 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 37
+firefox64.0 1 1
+iphone 2 2
+firefox59.0 1 1
+chrome90.0.4430.93 1 1
+Unknown 60 17
+chrome76.0.3809.71 1 1
+msie9.0 15 15
+chrome41.0.2227.1 1 1
+chrome75.0.3765.0 4 1
+chrome76.0.3809.132 2 2
+chrome26.0.1410.65 1 1
+chrome80.0.3987 1 1
+chrome36.0.1985.125 9 9
+msie7.0 2 2
+firefox57.0 3 3
+chrome35.0.3319.102 1 1
+chrome41.0.2225.0 1 1
+chrome91.0.4472.114 9 1
+chrome62.0.3202.84 1 1
+chrome70.0.3538.102 14 2
+edge17 13 2
+chrome89.0.4389.90 1 1
+chrome91.0.4472.77 199 49
+chrome73.0.3683.90 3 3
+chrome83.0.4103.97 18 18
+msie8.0 1 1
+chrome35.0.2117.157 1 1
+chrome91.0.4472.101 32 18
+chrome32.0.1664.3 1 1
+chrome91.0.4472.106 14 7
+firefox82.0 2 2
+firefox58.0 1 1
+chrome51.0.2704.103 2 2
+firefox89.0 53 8
+chrome91.0.4472.120 9 2
+chrome91.0.4472.88 8 1
+chrome35.0.1916.47 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+python-requests/2.24.0 20210627171048
+Sectigo_DCV 20210616021043
+COMODO_DCV 20210616021040
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210630113914
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210629002155
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210629002155
+Sectigo_DCV 20210616021043
+COMODO_DCV 20210616021040
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210630113914
+python-requests/2.24.0 20210627171048
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 124 168
+From1 0 0
+From2 3 3
+From3 0 0
+From4 55 318
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+301 65 20065
+500 10 2467038
+404 427 2597337
+405 11 2080409
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 305
+/clientscript/vbulletin_ajax_htmlloader.js 1 -
+/member/space/company/info.txt 1 -
+/admin/inc/xml.xslt 1 -
+/site/ 1 -
+/siteserver/login.aspx 1 -
+/inc/rsd.php 1 -
+/CuteSoft_Client/CuteEditor/Images/log.gif 1 -
+/new_gb/help/images/usage/3.3.gif 1 -
+/wordpress 1 http://www.marcros.com.br/wordpress/
+/whir_system/module/security/login.aspx 1 -
+/doku.php 1 -
+/js/popper.min.js.map 28 -
+/wp-login.php 25 -
+/help/ch_gb/images/help-title.gif 1 -
+/pub/guiedit/guiedit.js 1 -
+/include/dialog/config.php 1 -
+/demo 1 http://www.marcros.com.br/demo/
+/themes/default/graphics/horde-power1.png 1 -
+/api/api_user.xml 1 -
+/console/include/not_login.htm 1 -
+/ycportal/js/wbTextBox/showimg.jsp 1 -
+/examples/readonly.html 1 -
+/blog/wp-login.php 5 -
+/include/install_ocx.aspx 1 -
+/Public/Admin/Images/login_main_bg.jpg 1 -
+/images/branding/logo.gif 1 -
+/Prompt/images/P_Wrong.gif 1 -
+/script/login.js 1 -
+/media/com_hikashop/js/hikashop.js 1 -
+/digg.php 1 -
+/js/ajax_x.js 1 -
+/lang/en.js 1 -
+/system/skins/default/system.login.htm 1 -
+/Images/login/mainlogo.gif 1 -
+/Search.html 1 -
+/old-wp/ 1 -
+/extern.php 1 -
+/.well-known/security.txt 1 -
+/fckeditor/editor/js/fckeditorcode_ie.js 1 -
+/Wq_StranJF.js 1 -
+/console/js/CTRSRequestParam.js 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/pub/skins/pmwiki/pmwiki.css 1 -
+/User/Login.aspx 1 -
+/docs/DOCUMENTATION.txt 1 -
+/bak 1 http://www.marcros.com.br/bak/
+/admin/login.asp 1 -
+/admin.php 2 -
+/max-templates/classic/styles/app.css 1 -
+/wp-cron.php 1 -
+/help/user/index.html 1 -
+/bak/ 1 -
+/API/DW/Dwplugin/ThirdPartyTags/SiteFactory.xml 1 -
+/admin/js/IdSUtil.js 1 -
+/default/css/em_css.css 1 -
+/was5/web/index.jsp 1 -
+/backup 1 http://www.marcros.com.br/backup/
+/demo/ 1 -
+/new-site 1 http://www.marcros.com.br/new-site/
+/images/login/icon-up.gif 1 -
+/console/js/CWCMDialogHead.js 1 -
+/Scripts/jquery/maticsoft.jquery.min.js 1 -
+/static/hgicon.png 1 -
+/install/ 1 -
+/CuteSoft_Client/CuteEditor/Style/IE.css 1 -
+/tpl/user/tpl1/css/skins/blue.css 1 -
+/data/images/wap_logo.gif 1 -
+/data/admin/ver.txt 1 -
+/rss.php 1 -
+/wp/wp-login.php 5 -
+/Images/login/lefttu.jpg 1 -
+/Images/login/biaoti.jpg 1 -
+/backup/ 1 -
+/ks_inc/ajax.js 1 -
+/ckfinder/install.txt 1 -
+/site 1 http://www.marcros.com.br/site/
+/images/login/logo.gif 1 -
+/extman/default/images/logo.gif 1 -
+/old-wp 1 http://www.marcros.com.br/old-wp/
+/wordpress/wp-content/plugins/wp-user-avatar/readme.txt 1 marcros.com.br
+/maintlogin.jsp 1 -
+/business/images/index-gg1.jpg 1 -
+/Editor.js 1 -
+/Include/EcsServerApi.js 1 -
+/ids/admin/userhome/forgetPwd.jsp 1 -
+/fckeditor/license.txt 1 -
+/humans.txt 2 -
+/v1/ 1 -
+/License.txt 1 -
+/2019 1 http://www.marcros.com.br/2019/
+/ckfinder/ckfinder.html 1 -
+/template/1/bluewise/_files/jspxcms.css 1 -
+/phpmyadmin/docs.css 1 -
+/home/ 1 -
+/API/DW/Dwplugin/SystemLabel/SiteConfig.htm 1 -
+/images/login9/login_33.jpg 1 -
+/inc/Templates/rss.xslt 1 -
+/archiver 1 -
+/editor/fckeditor.js 1 -
+/forum.php 1 -
+/asp.net/README.txt 1 -
+/bk/ 1 -
+/cgi/index.cgi 1 -
+/readme.html 1 -
+/master/login.aspx 1 -
+/admin/login.php 1 -
+/siteserver/upgrade/default.aspx 1 -
+/2018 1 http://www.marcros.com.br/2018/
+/images/logo-white.png 1 -
+/app/js/source/wcmlib/WCMConstants.js 1 -
+/wordpress/wp-content/plugins/wp-user-avatar/assets/css/hint.min.css 1 marcros.com.br
+/feed.asp 1 -
+/licence.txt 1 -
+/images/logo_88x31.gif 1 -
+/dialog/dialog.js 1 -
+/.env 4 -
+/wordpress/wp-load.php 1 marcros.com.br
+/kindeditor-min.js 1 -
+/temp/ 1 -
+/fckeditor/editor/dtd/fck_dtd_test.html 1 -
+/admin/template/article_more/config.htm 1 -
+/images/2_11.gif 1 -
+/editor/js/fckeditorcode_ie.js 1 -
+/Admin/Login.aspx 1 -
+/forums/list.page 1 -
+/jcms/index_jcms.jsp 1 -
+/wordpress/wp-login.php 5 -
+/e/master/login.aspx 1 -
+/temp 1 http://www.marcros.com.br/temp/
+/template/home.htm 1 -
+/plug/publish 1 -
+/stylesheet.css 1 -
+/plus/heightsearch.php 1 -
+/API/DW/Dwplugin/TemplateManage/save_template.htm 1 -
+/help/en/h_authenticate.html 1 -
+/UserCenter/css/admin/bgimg/admin_all_bg.png 1 -
+/wp/ 1 -
+/old-site 1 http://www.marcros.com.br/old-site/
+/Admin/Images/LoginImages/admin_text.gif 1 -
+/plugin.php 1 -
+/2018/ 1 -
+/CuteSoft_Client/CuteEditor/ImageEditor/listfiles.aspx 1 -
+/v2 1 http://www.marcros.com.br/v2/
+/README.txt 1 -
+/Site/Pages/WebResources.ashx/PoweredByKodakImage 1 -
+/img/pic/login/top-left.jpg 1 -
+/images/logo_product-cml.png 1 -
+/app/login.jsp 1 -
+/back/scripts/jspxcms_choose.js 1 -
+/public/js/ipb.js 1 -
+/API/DW/Dwplugin/TemplateManage/login_site.htm 1 -
+/custom/SkinTemplate/skin/public/images/sys-logo-1caitong-180.jpg 1 -
+/ckeditor/ckfinder/install.txt 1 -
+/templates/jsn_glass_pro/ext/hikashop/jsn_ext_hikashop.css 1 -
+/Admin/Common/HelpLinks.xml 1 -
+/2019/ 1 -
+/common/help/images/helplogo_zh.gif 1 -
+/css/bootstrap.min.css.map 25 -
+/archive/archive.css 1 -
+/datacenter/downloadApp/showDownload.do 1 -
+/wordpress/content/plugins/wp-user-avatar/assets/css/hint.min.css 1 marcros.com.br
+/admin/admin_login.php 1 -
+/app/images/login/toplogo.gif 1 -
+/cms 1 http://www.marcros.com.br/cms/
+/phpmyadmin/themes/original/img/logo_right.png 1 -
+/cms/ 1 -
+/wp-content/plugins/log-http-requests/includes/include3.php 1 marcros.com.br
+/static/images/logo/webserver_small.gif 1 -
+/dev/ 1 -
+/v2/ 1 -
+/dev 1 http://www.marcros.com.br/dev/
+/Template/Default/Skin/user/images/login_back.jpg 1 -
+/style/default/hdwiki.css 1 -
+/images/default/post_bt.gif 1 -
+/admin/login.aspx 1 -
+/Admin/Images/LoginImages/admin_top.gif 1 -
+/wp 1 http://www.marcros.com.br/wp/
+/includes/general.js 1 -
+/Site/SystemThemes/7917A0869761B5458281E407AE0090F5/Images/ISBanner58px.jpg 1 -
+/system/Update.aspx 1 -
+/app/images/login/logo.png 1 -
+/wordpress/admin.php 1 marcros.com.br
+/ids/admin/login.jsp 1 -
+/ckeditor/ckfinder/ckfinder.html 1 -
+/tpl/login/user/images/login_bg_1.jpg 1 -
+/index.cgi 1 -
+/themes/default/default.css 1 -
+/wordpress/old-index.php 1 marcros.com.br
+/plugins/filemanager/filemanager/js 1 -
+/2020 1 http://www.marcros.com.br/2020/
+/404.jpg 1 -
+/jcms/index.jsp 1 -
+/helpnew/faq/faq_simple_zh_CN.jsp 1 -
+/plus/sitemap.html 1 -
+/new 1 http://www.marcros.com.br/new/
+/2020/ 1 -
+/new/ 1 -
+/include/dedeajax2.js 1 -
+/was/help.jsp 1 -
+/plus/download.php 1 -
+/inc/playerKinds.xml 1 -
+/was/main.html 1 -
+/wp2/ 1 -
+/wp2 1 http://www.marcros.com.br/wp2/
+/rss.aspx 1 -
+/examples/index.html 1 -
+/bk 1 http://www.marcros.com.br/bk/
+/fckeditor/fckeditor.js 1 -
+/apps/admin/_static/image/login_box_bg.png 1 -
+/eams/static/scripts/grade/course/input.js 1 -
+/ymail/images/index_r1_c4.jpg 1 -
+/bencandy.php 1 -
+/new-site/ 1 -
+/logo/logo_jw.png 1 -
+/uc_server/control/admin/db.php 1 -
+/FCK/editor/js/fckeditorcode_ie.js 1 -
+/console/auth/reg_newuser.jsp 1 -
+/app/Tpl/fanwe_1/js/DD_belatedPNG_0.0.8a-min.js 1 -
+/wp-content/plugins/log-http-requests/includes/include.php 1 marcros.com.br
+/images/Default_bg_002.gif 1 -
+/wordpress/style.php 1 marcros.com.br
+/FCK/fckeditor.js 1 -
+/login/Jeecms.do 1 -
+/plus/rssmap.html 1 -
+/default/images/logo.gif 1 -
+/v1 1 http://www.marcros.com.br/v1/
+/adminsoft/templates/images/login_bg_top.jpg 1 -
+/customdir/images/english_logo.jpg 1 -
+/Help 1 -
+/CuteSoft_Client/CuteEditor/Help/default.htm 1 -
+/images/hwem.css 1 -
+/Install/logo.gif 1 -
+/m 1 -
+/web 1 http://www.marcros.com.br/web/
+/wordpress/ 1 -
+/Error.aspx 1 -
+/admin/SouthidcEditor/ButtonImage/standard/componentmenu.gif 1 -
+/js/mage/cookies.js 1 -
+/addons/theme/stv1/_static/ts2/layout.css 1 -
+/common/help/images/helplogo.gif 1 -
+/web/ 1 -
+/history.txt 1 -
+/coremail/common/help/images/helplogo.gif 1 -
+/docs.css 1 -
+/administrator/manifests/files/joomla.xml 1 -
+/deptWebsiteAction.do 1 -
+/kindeditor.js 1 -
+/public/about.html 1 -
+/wp1/ 1 -
+/main 1 http://www.marcros.com.br/main/
+/list.php 1 -
+/install 2 http://www.marcros.com.br/install/
+/wp1 1 http://www.marcros.com.br/wp1/
+/images/login/eyoumail.gif 1 -
+/admin/index.php 1 -
+/coremail/common/help/images/helplogo_zh.gif 1 -
+/images/zh-CN/logo.ico 1 -
+/wordpress/wp-content/plugins/log-http-requests/includes/include.php 1 marcros.com.br
+/base/login/login.php 1 -
+/fckeditor/fckconfig.js 1 -
+/blog 1 http://www.marcros.com.br/blog/
+/addons/theme/stv2/_static/ts2/layout.css 1 -
+/themes/graphics/horde-power1.png 1 -
+/nobody/mobile.htm 1 -
+/admin/SouthidcEditor/Dialog/dialog.js 1 -
+/js/buttons.js 1 -
+/tools/rss.aspx 1 -
+/test 1 http://www.marcros.com.br/test/
+/app/home/skins/default/style.css 1 -
+/old 1 http://www.marcros.com.br/old/
+/wp-content 1 -
+/web2/login_template/1.files/Logo1.jpg 1 -
+/tmp/ 1 -
+/tmp 1 http://www.marcros.com.br/tmp/
+/blog/ 1 -
+/old/ 1 -
+/changelog.txt 1 -
+/script/valid_formdata.js 1 -
+/js/bootstrap.min.js.map 28 -
+/test/ 1 -
+/main/ 1 -
+/admin/ 3 -
+/license.txt 1 -
+/next/img/logo.gif 1 -
+/ads.txt 1 -
+/plugins/anchor/anchor.js 1 -
+/imagesschool/style1/flash2.jpg 1 -
+/fckeditor.js 1 -
+/webbuilder/script/locale/wb-lang-zh_CN.js 1 -
+/common/common.js 1 -
+/old-site/ 1 -
+/advfile/ad12.js 1 -
+/whir_system/login.aspx 1 -
+/images/login_Name.jpg 1 -
+/admin/SouthidcEditor/ewebeditor.asp 1 -
+/ckeditor/ckeditor.js 1 -
+/auth/login 1 -
+/system/Login.aspx 1 -
+/API/DW/Dwplugin/TemplateManage/manage_site.htm 1 -
+/admin/start/index.php 1 -
+/Ntalker/lawfirm.aspx 1 -
+/system/language/zh-cn.xml 1 -
+/examples/file-manager.html 1 -
+/CHANGELOG.txt 1 -
+/skin/frontend/default/modern/css/styles.css 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 75
+179.213.68.92 65 274 11362534 20210626134824
+186.202.173.147 15 15 183493 20210630145611
+106.55.250.60 8 8 98114 20210629112816
+187.26.64.46 8 15 49244 20210619202222
+189.111.35.222 7 14 413453 20210617172249
+104.154.31.26 6 6 50468 20210624204519
+198.27.121.225 4 27 989685 20210622005336
+179.213.16.135 3 3 68448 20210615210018
+202.120.234.146 2 2 24583 20210622063210
+92.118.160.9 2 2 24466 20210629002155
+89.163.225.144 2 2 12233 20210618113622
+186.202.163.106 2 2 24466 20210626191516
+34.96.130.3 1 1 12233 20210630091122
+171.13.14.54 1 1 12233 20210621024821
+34.217.55.219 1 1 12233 20210626185940
+92.118.160.41 1 1 12298 20210628112829
+54.186.231.27 1 1 12233 20210624184522
+35.161.222.196 1 1 12232 20210617181556
+157.90.167.79 1 1 12233 20210625063927
+52.34.150.133 1 1 12233 20210620182855
+34.77.162.23 1 1 12285 20210625030530
+44.234.32.174 1 1 12233 20210625182317
+52.34.206.130 1 1 12233 20210629182333
+34.86.35.2 1 1 12233 20210618190530
+45.129.18.192 1 1 0 20210629084427
+54.245.134.139 1 1 12232 20210616183206
+54.188.217.140 1 1 12233 20210622182711
+51.15.191.81 1 1 12284 20210617082045
+171.13.14.84 0 1 141586 
+171.13.14.40 0 1 132 
+35.183.60.188 1 1 12233 20210620101037
+207.180.230.64 1 1 12233 20210626090601
+185.189.12.120 1 1 0 20210626192451
+34.219.109.189 1 1 12233 20210620183329
+54.189.230.128 1 9 434942 20210626222922
+54.190.93.218 1 1 12233 20210621181135
+171.13.14.53 0 1 37501 
+3.141.9.99 1 1 12233 20210627171048
+54.186.243.65 1 1 12233 20210626183138
+34.77.162.4 1 1 687 20210616023728
+18.237.44.114 1 1 12233 20210622181645
+107.172.183.180 1 1 12232 20210617211307
+54.176.188.51 1 1 12233 20210618020354
+74.125.212.83 1 1 686 20210615210541
+18.229.73.207 1 1 682 20210616033457
+34.213.50.135 1 1 12233 20210619185949
+13.53.64.97 1 1 12233 20210618154837
+66.249.84.23 1 1 686 20210615210441
+34.216.75.216 1 1 12233 20210627182011
+54.212.22.0 1 1 12233 20210625181159
+52.11.36.211 1 1 12233 20210625180728
+34.86.35.15 1 1 12298 20210622190821
+35.180.147.121 1 1 12233 20210618084126
+100.21.218.158 1 1 12233 20210622112027
+185.220.101.212 1 1 12233 20210624144821
+34.96.130.32 1 1 12233 20210621222910
+91.199.212.132 0 3 231 
+47.243.112.52 1 1 12298 20210619220908
+34.96.130.18 1 1 12285 20210630084334
+34.219.203.30 1 1 12233 20210621181408
+34.86.35.19 1 1 12233 20210625114134
+52.37.183.213 1 1 12233 20210623184923
+192.71.38.71 1 1 12233 20210627215834
+34.86.35.3 1 1 12298 20210630041741
+201.49.81.4 1 8 356510 20210626134826
+54.203.73.198 1 1 12233 20210629085100
+34.77.162.31 1 1 12233 20210626090029
+142.4.16.98 0 40 2872 
+34.77.162.10 1 1 12298 20210630113914
+92.118.160.61 1 1 12285 20210627115218
+64.246.165.50 1 1 12285 20210619045054
+34.221.9.215 1 1 12233 20210628182704
+34.77.162.18 1 1 12298 20210624233941
+65.154.226.165 1 1 682 20210616025900
+47.243.154.52 1 1 12284 20210617204319
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 16
+20210615 11 35 141967 4
+20210616 10 36 462130 9
+20210617 19 61 1021044 9
+20210618 8 8 85631 7
+20210619 17 31 285906 9
+20210620 4 4 48932 4
+20210621 6 9 252682 6
+20210622 22 104 5414874 8
+20210623 33 120 4436145 3
+20210624 8 15 1103537 7
+20210625 7 7 85683 7
+20210626 11 33 1233593 10
+20210627 5 5 61217 5
+20210628 3 3 36764 3
+20210629 13 13 147046 6
+20210630 5 5 61347 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+2mn-5mn 2
+30s-2mn 2
+0s-30s 92
+1h+ 1
+5mn-15mn 2
+15mn-30mn 2
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 8
+/ 105 1110089 97 89
+/contato 36 231983 1 5
+/quem 11 40595 2 3
+/enviaremail 9 198 0 1
+/cpanel 7 237181 1 2
+/home 5 61244 0 1
+/index.php 5 61415 0 0
+/painel/contato 4 20188 1 1
+END_SIDER

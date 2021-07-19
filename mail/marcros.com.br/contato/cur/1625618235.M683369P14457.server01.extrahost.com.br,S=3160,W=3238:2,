@@ -1,0 +1,78 @@
+Return-Path: <hjqjly@oliszerver.hu>
+Delivered-To: contato@marcros.com.br
+Received: from server01.extrahost.com.br
+	by server01.extrahost.com.br with LMTP
+	id IOODKDv35GB5OAAA3B7SeQ
+	(envelope-from <hjqjly@oliszerver.hu>)
+	for <contato@marcros.com.br>; Tue, 06 Jul 2021 21:37:15 -0300
+Return-path: <hjqjly@oliszerver.hu>
+Envelope-to: contato@marcros.com.br
+Delivery-date: Tue, 06 Jul 2021 21:37:15 -0300
+Received: from 195-38-126-158.static.digikabel.hu ([195.38.126.158]:40608 helo=oliverparoczai.dev)
+	by server01.extrahost.com.br with esmtps  (TLS1.2) tls TLS_ECDH_anon_WITH_AES_256_CBC_SHA
+	(Exim 4.93)
+	(envelope-from <hjqjly@oliszerver.hu>)
+	id 1m0vYr-0003pf-Qh
+	for contato@marcros.com.br; Tue, 06 Jul 2021 21:37:15 -0300
+Received: from mail.oliszerver.hu (unknown [198.23.210.138])
+	by oliverparoczai.dev (Postfix) with ESMTP id 90BE71D44BA1;
+	Sat,  3 Jul 2021 11:02:16 -0400 (EDT)
+From: "Cursos online" <hjqjly@oliszerver.hu>
+Subject: Plataforma de cursos online - =?ISO-8859-1?Q?Fa=E7a?= cursos ou
+ venda seus cursos      - l.e.a.d 13
+To: contato@marcplan.com.br
+Content-Type: text/plain
+Reply-To: contactarinfos@gmail.com
+Date: Sat, 3 Jul 2021 17:02:19 +0200
+X-Spam-Status: No, score=4.9
+X-Spam-Score: 49
+X-Spam-Bar: ++++
+X-Ham-Report: Spam detection software, running on the system "server01.extrahost.com.br",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Conheça a maior plataforma de cursos online do Brasil. Faça
+    os cursos que preferir, ou venda seus cursos na plataforma. Para mais informações,
+    responda esse email enviando os dados abaixo: 
+ Content analysis details:   (4.9 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 TVD_RCVD_IP            Message was received from an IP address
+  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in
+                             bl.spamcop.net
+              [Blocked - see <https://www.spamcop.net/bl.shtml?198.23.210.138>]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  1.0 PP_MIME_FAKE_ASCII_TEXT BODY: MIME text/plain claims to be ASCII
+                              but isn't
+  0.1 MISSING_MID            Missing Message-Id: header
+  0.1 GAPPY_SUBJECT          Subject: contains G.a.p.p.y-T.e.x.t
+  0.0 CTE_8BIT_MISMATCH      Header says 7bits but body disagrees
+  2.5 FREEMAIL_FORGED_REPLYTO Freemail in Reply-To, but not From
+  0.0 T_FILL_THIS_FORM_SHORT Fill in a short form with personal
+                             information
+X-Spam-Flag: NO
+
+
+Conheça a maior plataforma de cursos online do Brasil.
+
+Faça os cursos que preferir, ou venda seus cursos na plataforma.
+
+Para mais informações, responda esse email enviando os dados abaixo:
+
+--------------------------------------------
+Nome:
+Email:
+Telefone:
+WhatsApp:
+--------------------------------------------
+
+Esperamos por você!
+
+Abraços,
+
+Plataforma de cursos online
+
+
+

@@ -1,0 +1,453 @@
+# Webalizer V2.23-08 Incremental Data - 07/09/2021 00:06:37
+2021 7 9 0 6 37
+260 96 72 15 7 38 2680094 68 49 0
+1 1 24 1 9
+32 16 532176 14 6 6
+82 19 741200 22 13 9
+42 11 302884 16 8 7
+4 2 37736 4 2 2
+12 9 100321 8 7 5
+25 20 502867 10 11 6
+14 7 113441 9 8 7
+48 11 337236 7 12 6
+1 1 12233 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+10 8 214919 6
+11 3 65105 2
+13 1 116809 0
+10 1 71714 1
+4 1 32060 1
+27 6 207026 7
+10 9 50452 5
+16 4 103926 2
+10 0 66090 0
+1 1 12233 1
+2 2 12309 1
+0 0 0 0
+1 0 6609 0
+5 3 37708 2
+44 20 658270 13
+4 2 37749 2
+0 0 0 0
+2 0 13218 0
+29 12 210217 8
+27 5 194354 4
+15 13 434060 7
+4 3 31140 2
+3 1 19142 3
+12 1 84984 1
+0
+0
+0
+96
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+2
+0
+0
+0
+0
+0
+0
+161
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/js/bootstrap.min.js
+0 2 0 102078 0 0
+/enviaremail
+0 1 0 22 0 0
+/favicon.ico
+0 8 0 0 0 0
+/js/holder.min.js
+0 2 0 64566 0 0
+/js/popper.min.js
+0 2 0 40672 0 0
+/css/bootstrap.min.css
+0 3 0 424758 0 0
+/home
+0 2 0 24530 0 0
+/contato
+0 5 23010544 28340 2 0
+/css/jumbotron.css
+0 3 0 264 0 0
+/cpanel
+0 1 0 33883 0 0
+/
+0 54 0 636623 45 10
+/js/jquery-3.3.1.slim.min.js
+0 2 0 139832 0 0
+/quem
+0 2 0 7482 0 0
+/robots.txt
+0 8 7171939 192 0 0
+/img/marcelo.jpg
+0 3 3474581182718489088 112503 0 0
+# End Of Table - urls
+# -sites- (monthly)
+190.139.184.35.bc.googleusercontent.com
+0 1 0 6609 0 0
+-
+233.44.70.34.bc.googleusercontent.com
+0 1 0 6609 0 0
+-
+134.209.148.149
+0 1 0 6609 0 0
+-
+92.118.160.61.netsystemsresearch.com
+0 1 1 12233 1 1625512471
+/
+ec2-54-149-174-128.us-west-2.compute.amazonaws.com
+0 1 1 12233 1 1625696108
+/
+msnbot-157-55-39-168.search.msn.com
+0 8 0 52872 0 0
+-
+ec2-13-127-143-208.ap-south-1.compute.amazonaws.com
+0 1 0 6609 0 0
+-
+crossbow.dreamhost.com
+0 2 0 13218 0 0
+-
+2.162.77.34.bc.googleusercontent.com
+0 1 1 12233 1 1625231811
+/
+ec2-35-167-99-86.us-west-2.compute.amazonaws.com
+0 1 1 0 0 0
+-
+159.203.189.81
+0 3 0 19827 0 0
+-
+ec2-54-244-31-249.us-west-2.compute.amazonaws.com
+0 1 1 12233 1 1625595943
+/
+bzq-82-80-249-143.dcenter.bezeqint.net
+0 1 1 37501 0 0
+-
+13.130.96.34.bc.googleusercontent.com
+0 1 1 12285 1 1625295833
+/
+93.158.91.201
+0 1 0 6609 0 0
+-
+jobqueue-listener.jobqueue.netcraft.com-u018d6a00da1c11ebb6641051838d6ab1u-digitalocean-2gb
+0 1 1 12298 1 1625175870
+/
+216.128.143.86.mukdi.com
+0 44 4 313292 2 1625322699
+/
+msnbot-157-55-39-75.search.msn.com
+0 20 0 132180 0 0
+-
+134.119.184.170
+0 20 3 149052 1 1625769744
+/
+31.210.20.31
+0 22 3 162270 1 1625723570
+/
+mail.atommail.me
+0 2 2 19305 1 1625462146
+/
+crawl-66-249-69-56.googlebot.com
+0 3 3 24490 1 1625465282
+/
+92.118.160.37.netsystemsresearch.com
+0 1 1 12298 1 1625321258
+/
+msnbot-40-77-167-40.search.msn.com
+0 2 2 48 0 0
+-
+stagingvps.displayplan.digital
+0 2 0 13218 0 0
+-
+93.158.91.207
+0 1 1 24 0 0
+-
+msnbot-207-46-13-84.search.msn.com
+0 8 0 52872 0 0
+-
+ec2-18-194-104-120.eu-central-1.compute.amazonaws.com
+0 1 1 0 1 1625754867
+/
+ec2-34-213-182-122.us-west-2.compute.amazonaws.com
+0 1 1 0 0 0
+-
+about.spyse.com
+0 3 3 12257 1 1625551568
+/
+144.172.126.43
+0 1 0 6609 0 0
+-
+ec2-34-209-151-185.us-west-2.compute.amazonaws.com
+0 1 1 0 0 0
+-
+ec2-54-244-38-79.us-west-2.compute.amazonaws.com
+0 1 1 12233 1 1625337974
+/
+21.162.77.34.bc.googleusercontent.com
+0 1 1 12233 1 1625634309
+/
+ec2-34-217-0-201.us-west-2.compute.amazonaws.com
+0 1 1 12233 1 1625251126
+/
+186.202.173.147
+0 8 8 97864 8 1625756344
+/
+122-116-248-74.hinet-ip.hinet.net
+0 2 0 13218 0 0
+-
+server.qzs.odw.mybluehost.me
+0 2 0 13218 0 0
+-
+crawl-66-249-79-85.googlebot.com
+0 2 2 12309 1 1625136985
+/
+ec2-54-201-167-73.us-west-2.compute.amazonaws.com
+0 1 1 12233 1 1625187914
+/
+ns327032.ip-94-23-250.eu
+0 1 0 6609 0 0
+-
+213-180-203-78.spider.yandex.com
+0 2 2 12257 1 1625341362
+/
+vmi240608.contaboserver.net
+0 1 1 12298 1 1625672754
+/
+bzq-82-80-249-219.dcenter.bezeqint.net
+0 6 6 177183 1 1625187058
+/contato
+ec2-34-219-246-194.us-west-2.compute.amazonaws.com
+0 1 1 0 0 0
+-
+139.59.78.248
+0 2 0 13218 0 0
+-
+dp-f246e16dce.dreamhostps.com
+0 1 0 6609 0 0
+-
+ec2-54-188-137-86.us-west-2.compute.amazonaws.com
+0 1 1 12233 1 1625520596
+/
+msnbot-207-46-13-37.search.msn.com
+0 10 0 66090 0 0
+-
+static.194.116.201.138.clients.your-server.de
+0 1 0 6609 0 0
+-
+ip-198-12-229-126.ip.secureserver.net
+0 1 0 6609 0 0
+-
+msnbot-40-77-167-108.search.msn.com
+0 10 0 66090 0 0
+-
+ec2-18-118-25-92.us-east-2.compute.amazonaws.com
+0 2 2 12257 1 1625664963
+/
+ecngx264.inmotionhosting.com
+0 2 0 13218 0 0
+-
+208-231.static.spheral.ru
+0 2 2 7072 1 1625724659
+/contato
+163.222.132.34.bc.googleusercontent.com
+0 1 1 12233 1 1625219874
+/
+159.203.83.245
+0 1 0 6609 0 0
+-
+186.202.163.106
+0 3 1 19142 2 1625696930
+-
+bzq-82-80-230-228.cablep.bezeqint.net
+0 2 2 24570 2 1625187033
+/
+ec2-34-210-151-224.us-west-2.compute.amazonaws.com
+0 1 1 12233 1 1625251145
+/
+ec2-52-34-233-165.us-west-2.compute.amazonaws.com
+0 1 1 0 0 0
+-
+212.192.241.68
+0 2 1 18842 1 1625152667
+/
+ec2-34-216-123-78.us-west-2.compute.amazonaws.com
+0 1 1 12233 1 1625338407
+/
+ec2-54-190-196-21.us-west-2.compute.amazonaws.com
+0 1 1 12233 1 1625544273
+/
+92.118.160.17.netsystemsresearch.com
+0 1 1 12285 1 1625385214
+/
+b3d5445c.virtua.com.br
+0 14 12 421827 1 1625605132
+/cpanel
+ec2-34-212-163-65.us-west-2.compute.amazonaws.com
+0 1 1 12233 1 1625789197
+/
+pool-77-222-98-103.is74.ru
+0 8 8 365026 1 1625149208
+/
+45.129.18.86
+0 1 1 0 1 1625708352
+/
+ec2-54-187-171-223.us-west-2.compute.amazonaws.com
+0 1 1 0 0 0
+-
+138.197.121.19
+0 1 0 6609 0 0
+-
+ec2-34-219-60-141.us-west-2.compute.amazonaws.com
+0 1 1 12233 1 1625543404
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+ec2-34-212-163-65.us-west-2.compute.amazonaws.com
+0 1 1 12233 1 1625789197
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://marcros.com.br/home
+0 1
+http://www.marcros.com.br/
+0 5
+- (Direct Request)
+0 228
+http://marcros.com.br/contato
+0 1
+http://marcros.com.br/
+0 16
+marcros.com.br
+0 8
+http://marcros.com.br/quem
+0 1
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+0 21
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+0 3
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+0 14
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko; compatible; BW/1.1; bit.ly/2W6Px8S) Chrome/8
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:27.0) Gecko/20100101 Firefox/27.0
+0 1
+Embarcadero URI Client/1.0
+0 2
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 OPR/77.0.
+0 8
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+0 44
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 4
+Mozilla/5.1 (Windows NT 6.0; WOW64) AppleWebKit/533.36 (KHTML, like Gecko) Chrome/46.0.2754.75 Safari/533.36
+0 2
+Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+0 58
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+0 3
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4240.193 Safari/537.36
+0 20
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+0 15
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.90 Mobile S
+0 1
+python-requests/2.25.1
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:26.0) Gecko/20100101 Firefox/26.0
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36
+0 1
+Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39
+0 3
+Mozilla/5.0 (Windows NT 6.0; rv:26.0) Gecko/20100101 Firefox/26.0
+0 1
+Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 7.0; SM-G892A Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.31
+0 2
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.0) Gecko/20100101 Firefox/31.0
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36
+0 6
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.73.11 (KHTML, like Gecko) Version/7.0.1 Safari/537.73.11
+0 1
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
+0 18
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.136
+0 1
+NetSystemsResearch studies the availability of various services across the internet. Our website is netsystemsresearch.com
+0 3
+Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2376.69 Safari/537.36
+0 2
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+0 8
+Mozilla/5.0 (Windows NT 6.1; rv:26.0) Gecko/20100101 Firefox/26.0
+0 1
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

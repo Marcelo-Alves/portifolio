@@ -1,0 +1,113 @@
+Return-Path: <wctajzkq@utapao.com>
+Delivered-To: contato@marcros.com.br
+Received: from server01.extrahost.com.br
+	by server01.extrahost.com.br with LMTP
+	id QJUnEhuG52AjUwAA3B7SeQ
+	(envelope-from <wctajzkq@utapao.com>)
+	for <contato@marcros.com.br>; Thu, 08 Jul 2021 20:11:23 -0300
+Return-path: <wctajzkq@utapao.com>
+Envelope-to: contato@marcros.com.br
+Delivery-date: Thu, 08 Jul 2021 20:11:23 -0300
+Received: from [122.154.114.126] (port=42510 helo=mail.utapao.com)
+	by server01.extrahost.com.br with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.93)
+	(envelope-from <wctajzkq@utapao.com>)
+	id 1m1dAr-0005aM-H2
+	for contato@marcros.com.br; Thu, 08 Jul 2021 20:11:23 -0300
+Received: from mail.utapao.com (cogiflat.com [107.173.177.138])
+	by mail.utapao.com  with ESMTP id 168N9xEU008039-168N9xEW008039;
+	Fri, 9 Jul 2021 06:10:00 +0700
+Message-Id: <202107082310.168N9xEU008039-168N9xEW008039@mail.utapao.com>
+From: "BOOM DE VENDAS" <wctajzkq@utapao.com>
+Subject: Divulgue para =?ISO-8859-1?Q?at=E9?= 200 =?ISO-8859-1?Q?MILH=D5ES?=
+ DE EMAILS - Boom de vendas
+To: contato@marcozerocwk.com.br
+Reply-To: contactardados@gmail.com
+Date: Fri, 9 Jul 2021 01:10:05 +0200
+X-FEAS-SPF: spf-result=permerror, ip=107.173.177.138, helo=mail.utapao.com, mailFrom=wctajzkq@utapao.com
+Authentication-Results: mail.utapao.com;
+	spf=permerror (utapao.com: 107.173.177.138 is neither permitted nor denied by best guess record for domain of wctajzkq@utapao.com) smtp.mailfrom=wctajzkq@utapao.com
+X-Spam-Status: No, score=4.2
+X-Spam-Score: 42
+X-Spam-Bar: ++++
+X-Ham-Report: Spam detection software, running on the system "server01.extrahost.com.br",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Divulgue para até 200 MILHÕES DE EMAILS COM PREÇO DE CUSTO!
+    BOOM DE VENDAS imediato! FALE COM A GENTE no WhatsApp: 22-99788-1694 Você
+    pode divulgar para todo o Brasil, ou você pode escolher as regiões e áreas
+    de interesse que você deseja priorizar. A maior divulgação de todo o Brasil,
+    com acompanhamento ONLINE dos resultados em [...] 
+ Content analysis details:   (4.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 T_SPF_PERMERROR        SPF: test of record failed (permerror)
+  0.0 RCVD_IN_MSPIKE_L4      RBL: Bad reputation (-4)
+                             [122.154.114.126 listed in bl.mailspike.net]
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.4 PP_MIME_FAKE_ASCII_TEXT BODY: MIME text/plain claims to be ASCII
+                              but isn't
+  0.0 RCVD_IN_MSPIKE_BL      Mailspike blacklisted
+  1.3 RDNS_NONE              Delivered to internal network by a host with no rDNS
+  2.5 FREEMAIL_FORGED_REPLYTO Freemail in Reply-To, but not From
+  0.0 T_FILL_THIS_FORM_SHORT Fill in a short form with personal
+                             information
+X-Spam-Flag: NO
+
+
+Divulgue para até 200 MILHÕES DE EMAILS COM PREÇO DE CUSTO! BOOM DE VENDAS imediato!
+
+FALE COM A GENTE no WhatsApp: 22-99788-1694
+
+Você pode divulgar para todo o Brasil, ou você pode escolher as regiões e áreas de interesse que você deseja priorizar.
+A maior divulgação de todo o Brasil, com acompanhamento ONLINE dos resultados em tempo real, com Painel Online Exclusivo !
+
+Veja os detalhes:
+
+- Nós fazemos todo o trabalho para você.
+- Nós enviamos seu anúncio para até 200 milhões de emails.
+- Você pode escolher as áreas de seu maior interesse para prioridade nos envios.
+- Você acompanha online o andamento de todos os envios.
+- Se você não tiver o texto do anúncio, faremos para você sem custo adicional.
+
+Para fazer a campanha BOOM de vendas, responda esse email com os dados abaixo:
+
+----------------------------------------------------
+Nome:
+Email:
+Telefone:
+WhatsApp:
+Opção desejada:
+
+(  ) R$ 199 - Divulgação para 1 MILHÂO DE EMAILS
+(  ) R$ 299 - Divulgação para 5 MILHÕES DE EMAILS
+(  ) R$ 399 - Divulgação para 25 MILHÕES DE EMAILS
+(  ) R$ 599 - Divulgação para 50 MILHÕES DE EMAILS
+(  ) R$ 999 - Divulgação para 100 MILHÕES DE EMAILS
+(  ) R$ 1500 - Divulgação para 200 MILHÕES DE EMAILS
+-----------------------------------------------------
+
+Ou fale com a gente. Seguem abaixo nossos contatos:
+
+Por WhatsApp:
+22-99788-1694
+
+Por Skype:
+corbettsoftware
+
+----------------------------------------------------------------------------------
+
+Abraços dos amigos da
+
+Divulgarantia
+
+C O R B E T T
+ D E S D E 1 9 9 8
+
+WhatsApp:
+22-99788-1694
+
+Skype:
+corbettsoftware

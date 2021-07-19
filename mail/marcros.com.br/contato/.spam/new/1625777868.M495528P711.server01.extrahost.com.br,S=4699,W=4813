@@ -1,0 +1,114 @@
+Return-Path: <fnmqmqb@mtomtech.co.kr>
+Delivered-To: contato+spam@marcros.com.br
+Received: from server01.extrahost.com.br
+	by server01.extrahost.com.br with LMTP
+	id 8GBfHcxm52DHAgAA3B7SeQ
+	(envelope-from <fnmqmqb@mtomtech.co.kr>)
+	for <contato+spam@marcros.com.br>; Thu, 08 Jul 2021 17:57:48 -0300
+Return-path: <fnmqmqb@mtomtech.co.kr>
+Envelope-to: contato@marcros.com.br
+Delivery-date: Thu, 08 Jul 2021 17:57:48 -0300
+Received: from [183.107.232.81] (port=57232 helo=mtomtech.mtomtech.co.kr)
+	by server01.extrahost.com.br with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.93)
+	(envelope-from <fnmqmqb@mtomtech.co.kr>)
+	id 1m1b5b-0000LP-3y
+	for contato@marcros.com.br; Thu, 08 Jul 2021 17:57:48 -0300
+Received: from mail.mtomtech.co.kr (172-245-23-175-host.colocrossing.com [172.245.23.175] (may be forged))
+	by mtomtech.mtomtech.co.kr (8.14.7/8.14.7) with ESMTP id 168KtVt8015613;
+	Fri, 9 Jul 2021 05:55:32 +0900
+Message-Id: <202107082055.168KtVt8015613@mtomtech.mtomtech.co.kr>
+From: "BOOM de vendas" <fnmqmqb@mtomtech.co.kr>
+To: contato@marcozerocwk.com.br
+Reply-To: contactardados@gmail.com
+Date: Thu, 8 Jul 2021 22:55:40 +0200
+X-Spam-Status: Yes, score=6.9
+X-Spam-Score: 69
+X-Spam-Bar: ++++++
+X-Spam-Report: Spam detection software, running on the system "server01.extrahost.com.br",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Divulgue para até 200 MILHÕES DE EMAILS COM PREÇO DE CUSTO!
+    BOOM DE VENDAS imediato! FALE COM A GENTE no WhatsApp: 22-99788-1694 Você
+    pode divulgar para todo o Brasil, ou você pode escolher as regiões e áreas
+    de interesse que você deseja priorizar. A maior divulgação de todo o Brasil,
+    com acompanhamento ONLINE dos resultados em [...] 
+ Content analysis details:   (6.9 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.0 HK_RANDOM_FROM         From username looks random
+  0.0 HK_RANDOM_ENVFROM      Envelope sender username looks random
+  0.5 FROM_LOCAL_NOVOWEL     From: localpart has series of non-vowel
+                             letters
+  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in
+                             bl.spamcop.net
+              [Blocked - see <https://www.spamcop.net/bl.shtml?172.245.23.175>]
+  0.0 SPF_NONE               SPF: sender does not publish an SPF Record
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.4 PP_MIME_FAKE_ASCII_TEXT BODY: MIME text/plain claims to be ASCII
+                              but isn't
+  1.3 RDNS_NONE              Delivered to internal network by a host with no rDNS
+  2.5 FREEMAIL_FORGED_REPLYTO Freemail in Reply-To, but not From
+  0.0 T_FILL_THIS_FORM_SHORT Fill in a short form with personal
+                             information
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Divulgue para =?ISO-8859-1?Q?at=E9?= 200 =?ISO-8859-1?Q?MILH=D5ES?=
+ DE EMAILS - Boom de vendas
+
+
+Divulgue para até 200 MILHÕES DE EMAILS COM PREÇO DE CUSTO! BOOM DE VENDAS imediato!
+
+FALE COM A GENTE no WhatsApp: 22-99788-1694
+
+Você pode divulgar para todo o Brasil, ou você pode escolher as regiões e áreas de interesse que você deseja priorizar.
+A maior divulgação de todo o Brasil, com acompanhamento ONLINE dos resultados em tempo real, com Painel Online Exclusivo !
+
+Veja os detalhes:
+
+- Nós fazemos todo o trabalho para você.
+- Nós enviamos seu anúncio para até 200 milhões de emails.
+- Você pode escolher as áreas de seu maior interesse para prioridade nos envios.
+- Você acompanha online o andamento de todos os envios.
+- Se você não tiver o texto do anúncio, faremos para você sem custo adicional.
+
+Para fazer a campanha BOOM de vendas, responda esse email com os dados abaixo:
+
+----------------------------------------------------
+Nome:
+Email:
+Telefone:
+WhatsApp:
+Opção desejada:
+
+(  ) R$ 199 - Divulgação para 1 MILHÂO DE EMAILS
+(  ) R$ 299 - Divulgação para 5 MILHÕES DE EMAILS
+(  ) R$ 399 - Divulgação para 25 MILHÕES DE EMAILS
+(  ) R$ 599 - Divulgação para 50 MILHÕES DE EMAILS
+(  ) R$ 999 - Divulgação para 100 MILHÕES DE EMAILS
+(  ) R$ 1500 - Divulgação para 200 MILHÕES DE EMAILS
+-----------------------------------------------------
+
+Ou fale com a gente. Seguem abaixo nossos contatos:
+
+Por WhatsApp:
+22-99788-1694
+
+Por Skype:
+corbettsoftware
+
+----------------------------------------------------------------------------------
+
+Abraços dos amigos da
+
+Divulgarantia
+
+C O R B E T T
+ D E S D E 1 9 9 8
+
+WhatsApp:
+22-99788-1694
+
+Skype:
+corbettsoftware
