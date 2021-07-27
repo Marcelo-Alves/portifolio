@@ -1,0 +1,88 @@
+Return-Path: <yumgissjchg@servtran.com>
+Delivered-To: contato+spam@marcros.com.br
+Received: from server01.extrahost.com.br
+	by server01.extrahost.com.br with LMTP
+	id uFY9E3aO6GBlEAAA3B7SeQ
+	(envelope-from <yumgissjchg@servtran.com>)
+	for <contato+spam@marcros.com.br>; Fri, 09 Jul 2021 14:59:18 -0300
+Return-path: <yumgissjchg@servtran.com>
+Envelope-to: contato@marcros.com.br
+Delivery-date: Fri, 09 Jul 2021 14:59:18 -0300
+Received: from servtran.com ([140.82.254.14]:12826 helo=mail.servtran.com)
+	by server01.extrahost.com.br with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+	(Exim 4.93)
+	(envelope-from <yumgissjchg@servtran.com>)
+	id 1m1umO-000161-MG
+	for contato@marcros.com.br; Fri, 09 Jul 2021 14:59:18 -0300
+Received: from pebbles.mbg.local (192.168.5.9) by exch-02.mbg.local
+ (192.168.5.10) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.1.2106.2; Fri, 9 Jul
+ 2021 13:59:10 -0400
+Received: from mail.servtran.com (192.168.5.55) by pebbles.mbg.local
+ (192.168.5.9) with Microsoft SMTP Server id 15.1.2106.2 via Frontend
+ Transport; Fri, 9 Jul 2021 13:59:10 -0400
+From: App Banking <yumgissjchg@servtran.com>
+To: <contato@marcplan.com.br>
+Content-Type: text/plain
+Reply-To: <acessenossositeabaixo@gmail.com>
+Date: Fri, 9 Jul 2021 19:59:11 +0200
+Message-ID: <5e553561-a0c2-46d3-a5f2-9e7cd75eb015@pebbles.mbg.local>
+MIME-Version: 1.0
+X-Spam-Status: Yes, score=9.2
+X-Spam-Score: 92
+X-Spam-Bar: +++++++++
+X-Spam-Report: Spam detection software, running on the system "server01.extrahost.com.br",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Uma conta digital é o ideal!! http://appbanking.com.br/ Internet
+    e um smartphone é tudo que você precisa para pagar contas, fazer transferências,
+    investir. 
+ Content analysis details:   (9.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: appbanking.com.br]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.4 PP_MIME_FAKE_ASCII_TEXT BODY: MIME text/plain claims to be ASCII
+                              but isn't
+  2.4 RAZOR2_CF_RANGE_51_100 Razor2 gives confidence level above 50%
+                             [cf: 100]
+  1.7 RAZOR2_CHECK           Listed in Razor2 (http://razor.sf.net/)
+  0.0 CTE_8BIT_MISMATCH      Header says 7bits but body disagrees
+  2.2 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+  2.5 FREEMAIL_FORGED_REPLYTO Freemail in Reply-To, but not From
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Um banco positivo para =?ISO-8859-1?Q?voc=EA!?=
+
+
+Uma conta digital é o ideal!!
+
+http://appbanking.com.br/
+
+Internet e um smartphone
+é tudo que você precisa para
+pagar contas, fazer transferências, investir.
+
+Ter conta digital é:
+Fácil
+Descomplicado
+Seguro
+E ainda tem o PIX carinha sorridente
+
+Abra sua conta e conheça as vantagens!
+
+E sem consulta no SPC
+Faça parte de um banco sem fila, sem papelada, sem porta giratória e que você pode pagar boletos, fazer 
+
+transferências, recarregar celular de qualquer lugar que você estiver.
+Abra sua conta sem consulta no SPC/SERASA, sem burocracia, sem filas.
+
+Faça seu cadastro agora mesmo de forma fácil e rápida:
+https://app.appbanking.com.br/office/auth/register
+

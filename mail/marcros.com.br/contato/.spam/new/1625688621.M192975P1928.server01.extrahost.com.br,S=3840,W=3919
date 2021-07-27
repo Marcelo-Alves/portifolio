@@ -1,0 +1,79 @@
+Return-Path: <postmaster@koolkovers.ca>
+Delivered-To: contato+spam@marcros.com.br
+Received: from server01.extrahost.com.br
+	by server01.extrahost.com.br with LMTP
+	id qLlWCy0K5mCIBwAA3B7SeQ
+	(envelope-from <postmaster@koolkovers.ca>)
+	for <contato+spam@marcros.com.br>; Wed, 07 Jul 2021 17:10:21 -0300
+Return-path: <postmaster@koolkovers.ca>
+Envelope-to: contato@marcros.com.br
+Delivery-date: Wed, 07 Jul 2021 17:10:21 -0300
+Received: from 69-165-217-10.dsl.teksavvy.com ([69.165.217.10]:59052 helo=mail.phonecareplus.ca)
+	by server01.extrahost.com.br with esmtp (Exim 4.93)
+	(envelope-from <postmaster@koolkovers.ca>)
+	id 1m1Ds7-0000VN-IT
+	for contato@marcros.com.br; Wed, 07 Jul 2021 17:10:21 -0300
+Received: from mail.koolkovers.ca ([172.245.25.163]) by phonecareplus.ca with
+ MailEnable ESMTP; Tue, 6 Jul 2021 22:34:56 -0400
+From: "Climacode" <postmaster@koolkovers.ca>
+To: contato@marcplan.com.br
+Content-Type: text/plain
+Reply-To: acessenossositeabaixo@gmail.com
+Date: Wed, 7 Jul 2021 04:34:55 +0200
+Message-ID: <2D5D521E16D44BD0B22150DA0B6A3176.MAI@phonecareplus.ca>
+X-Spam-Status: Yes, score=5.5
+X-Spam-Score: 55
+X-Spam-Bar: +++++
+X-Spam-Report: Spam detection software, running on the system "server01.extrahost.com.br",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  CHEGOU O CLIMACODE! O novo aplicativo que promete revolucionar
+    o mercado de refrigeração!!!! Aqui, você pode encontrar o técnico mais próximo,
+    e solicitar todos os tipos de serviços para o seu ar 
+ Content analysis details:   (5.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 BAD_ENC_HEADER         Message has bad MIME encoding in the header
+  0.0 TVD_RCVD_IP            Message was received from an IP address
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: linktr.ee]
+  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in
+                             bl.spamcop.net
+              [Blocked - see <https://www.spamcop.net/bl.shtml?172.245.25.163>]
+  0.0 SPF_NONE               SPF: sender does not publish an SPF Record
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  1.0 PP_MIME_FAKE_ASCII_TEXT BODY: MIME text/plain claims to be ASCII
+                              but isn't
+  0.4 RDNS_DYNAMIC           Delivered to internal network by host with
+                             dynamic-looking rDNS
+  0.0 CTE_8BIT_MISMATCH      Header says 7bits but body disagrees
+  0.0 PDS_RDNS_DYNAMIC_FP    RDNS_DYNAMIC with FP steps
+  2.5 FREEMAIL_FORGED_REPLYTO Freemail in Reply-To, but not From
+  0.4 KHOP_HELO_FCRDNS       Relay HELO differs from its IP's reverse DNS
+X-Spam-Flag: YES
+Subject:  ***SPAM***  =?ISO-8859-1?Q?Instala=E7=E3o, manuten=E7=E3o?= e conserto de ar
+ condicionado? Vem para a ClimaCode
+
+
+CHEGOU O CLIMACODE! 
+
+O novo aplicativo que promete revolucionar o mercado de refrigeração!!!!
+
+Aqui, você pode encontrar o técnico mais próximo, e solicitar todos os tipos de serviços para o seu ar 
+
+condicionado. E o melhor de tudo, oferecemos esse serviço de busca inteiramente GRÁTIS!
+
+Aplicativo válido para todo o Brasil, e disponível para Android e IOS.
+
+Siga o nosso perfil no instagram para mais detalhes: @climacode.app
+
+Para baixar nosso aplicativo, entre nesse link e escolha a sua opção de loja:
+
+https://linktr.ee/Climacode
+
+ClimaCode, o seu aplicativo de refrigeração!

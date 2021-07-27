@@ -1,0 +1,122 @@
+Return-Path: <postmaster@mof.gov.la>
+Delivered-To: contato+spam@marcros.com.br
+Received: from server01.extrahost.com.br
+	by server01.extrahost.com.br with LMTP
+	id sHj0FE8K52BiWgAA3B7SeQ
+	(envelope-from <postmaster@mof.gov.la>)
+	for <contato+spam@marcros.com.br>; Thu, 08 Jul 2021 11:23:11 -0300
+Return-path: <postmaster@mof.gov.la>
+Envelope-to: contato@marcros.com.br
+Delivery-date: Thu, 08 Jul 2021 11:23:11 -0300
+Received: from mail.mof.gov.la ([202.137.147.100]:57422 helo=mof.gov.la)
+	by server01.extrahost.com.br with esmtps  (TLS1.2) tls TLS_ECDH_anon_WITH_AES_256_CBC_SHA
+	(Exim 4.93)
+	(envelope-from <postmaster@mof.gov.la>)
+	id 1m1Uvh-000681-Ty
+	for contato@marcros.com.br; Thu, 08 Jul 2021 11:23:11 -0300
+Received: by mof.gov.la (Postfix, from userid 1004)
+	id CF19811263363; Thu,  8 Jul 2021 20:21:04 +0700 (+07)
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mof.gov.la
+X-Spam-Level: ***
+Received: from mail.mof.gov.la (unknown [172.16.0.39])
+	by mof.gov.la (Postfix) with ESMTP id C52AE1125A684;
+	Thu,  8 Jul 2021 20:11:41 +0700 (+07)
+Received: from unknown ([192.168.3.2] helo=mail.mof.gov.la) by ASSP.nospam
+	with SMTP (2.4.5); 8 Jul 2021 20:11:40 +0700
+From: "ULTRA - BELA VISTA " <postmaster@mof.gov.la>
+To: contato@marcros.com.br
+Content-Type: text/html
+Reply-To: contactarinfos@gmail.com
+Date: Thu, 8 Jul 2021 15:11:45 +0200
+X-SpamInfo: FortiGuard-AntiSpam ase, 
+X-ASE-REPORT: 1a71d4eca86dcd67cb4f0bda1537a2f5e	Threshold 80	Verdict score	100
+		Engine version	1.00001.117	Rule version	1001	FortiRule:	100	R_BLACK_CHECKS
+	UM		FortiSig3:	1	0034aa16ee7303cb10be21c5fd847b1b:2:680
+X-Assp-ID: ASSP.nospam m1-49901-03991
+X-Assp-Session: 7F7A9F2356B8 (mail 1)
+X-Assp-Envelope-From: postmaster@mof.gov.la
+X-Assp-Intended-For: contato@marcros.com.br
+X-Assp-Intended-For: contato@marcsmith.com.br
+X-Assp-Intended-For: contato@marcssite.com.br
+X-Assp-Intended-For: contato@marcsson.com.br
+X-Assp-Intended-For: contato@marctecnologia.com.br
+X-Assp-Version: 2.4.5(15162) on ASSP.nospam
+X-Assp-Message-Score: 10 (PTR missing)
+X-Assp-IP-Score: 10 (PTR missing)
+X-Assp-Redlisted: Yes (bounces are not collected)
+X-Assp-Spam-Level: ***
+Message-Id: <20210708133113.CF19811263363@mof.gov.la>
+X-Spam-Status: Yes, score=6.5
+X-Spam-Score: 65
+X-Spam-Bar: ++++++
+X-Spam-Report: Spam detection software, running on the system "server01.extrahost.com.br",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  If this email is not spam, click here to submit the signatures
+    to FortiGuard - AntiSpam Service. Melhores apartamentos e stÃºdios em Osasco/SP
+    Entrega: PrevisÃ£o para Setembro de 2022. -Infraestrutura de lazer completa,
+    tudo serÃ¡ entregue equipado e decorado, conforme visto na apresentaÃ§Ã£o,
+    co [...] 
+ Content analysis details:   (6.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  3.0 NOT_SPAM               BODY: I'm not spam! Really! I'm not, I'm not, I'm not!
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: nospammer.net]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.6 HTML_MIME_NO_HTML_TAG  HTML-only message, but there is no HTML
+                             tag
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+  0.1 MIME_HEADER_CTYPE_ONLY 'Content-Type' found without required
+                             MIME headers
+  0.1 GAPPY_SUBJECT          Subject: contains G.a.p.p.y-T.e.x.t
+  2.5 FREEMAIL_FORGED_REPLYTO Freemail in Reply-To, but not From
+  0.0 T_FILL_THIS_FORM_SHORT Fill in a short form with personal
+                             information
+X-Spam-Flag: YES
+Subject:  ***SPAM***  =?utf-8?Q?Spam?=
+ =?utf-8?Q?Melhores=20apartamentos=20e=20st=C3=BAdios=20em=20Osasco=2FSP?=
+ =?utf-8?Q?=0D=0A=20-=20l=2Ee=2Ea=2Ed=2015?=
+
+
+<DIV><a style="color: blue; background-color: ffffdd"
+href="http://nospammer.net/SubmitSpam/submitspam.php?id=I3RUeHgNB3VUdwhfcEN0
+Rg__&sig=e3g0HHS7eN1oIzFtaiVldXl4NC12MTNsaCMxbmolZ9l5TJ46mEIwv3idEKmXoR5q">
+If this email is not spam, click here to submit the signatures to 
+FortiGuard - AntiSpam Service.
+</a></DIV>
+<PRE>  
+Melhores apartamentos e stúdios em Osasco/SP
+
+Entrega: Previsão para Setembro de 2022.
+
+-Infraestrutura de lazer completa, tudo será entregue equipado e decorado, conforme visto na apresentação, com alto padrão de qualidade,
+
+-5 piscinas (3 naturais e 2 cobertas aquecidas),
+
+- Grande oportunidade, valores promocionais, negociáveis de acordo com a entrada e fluxo.
+
+Para mais informações, responda esse email enviando os dados abaixo:
+
+--------------------------------------------
+Nome:
+Email:
+Telefone:
+WhatsApp:
+--------------------------------------------
+
+Realize seu sonho, com as melhores taxas.
+
+Esperamos por você!
+
+Equipe ULTRA - BELA VISTA 
+

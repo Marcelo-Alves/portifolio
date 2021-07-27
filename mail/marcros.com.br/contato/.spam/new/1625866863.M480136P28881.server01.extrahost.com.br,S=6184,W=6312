@@ -1,0 +1,128 @@
+Return-Path: <rpainel-xwwv@acertouagora.com.br>
+Delivered-To: contato+spam@marcros.com.br
+Received: from server01.extrahost.com.br
+	by server01.extrahost.com.br with LMTP
+	id COBkHG/C6GDRcAAA3B7SeQ
+	(envelope-from <rpainel-xwwv@acertouagora.com.br>)
+	for <contato+spam@marcros.com.br>; Fri, 09 Jul 2021 18:41:03 -0300
+Return-path: <rpainel-xwwv@acertouagora.com.br>
+Envelope-to: contato@marcros.com.br
+Delivery-date: Fri, 09 Jul 2021 18:41:03 -0300
+Received: from mji0nzi4ymex.vitoriasua.radio.fm ([177.137.30.36]:38627)
+	by server01.extrahost.com.br with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.93)
+	(envelope-from <rpainel-xwwv@acertouagora.com.br>)
+	id 1m1yEz-0007Yj-Jy
+	for contato@marcros.com.br; Fri, 09 Jul 2021 18:41:03 -0300
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=default; d=acertouagora.com.br;
+ h=To:Subject:Message-ID:Date:From:Reply-To:MIME-Version:List-Unsubscribe:
+ Content-Type:Content-Transfer-Encoding;
+ bh=BHNgfaGxCOFMhN1bE+Z4sgwf81a0w5ttndqjeLCgDQA=;
+ b=lhKNs4VPUEYoYbe6LBIRFUJLh74ne2g9VCMrueznuHObDICteuqYVaWIVXOUo34xNK0/ktFtjSjF
+   f/TZg1fNZYfH5V3lbwIw/Xa4ynHoJIn+KmK79COOd9hmnQqEknDEen3/OHpt+3sMXWxLYe/KZtmF
+   a+Y7Qg1vNI0o55BKsa2mKvwRzNNZdDmbsJmgQEFDeMpMHQHPEFumbTP+Y39gllWGnEDpyUgs1MpB
+   OWbyeMgX4XHVfJ8BQY2gnKTFuHCTfxaSfVhuQzZAHyyk3br1JMHsBsD4RrfiwZ5zXR+SswTrkMp0
+   oqZ9mOh0Tv0sZYgw0Q7r7SBtJAvoKWTuqXlm0Q==
+To: contato@marcros.com.br
+Message-ID: <9c7eb76d4f88d48a3b61e38948b5ce13@h.acertouagora.com.br>
+Date: Fri, 09 Jul 2021 18:40:55 -0300
+From: "Loto-Acerta" <47zp@acertouagora.com.br>
+Reply-To: h3t9@acertouagora.com.br
+MIME-Version: 1.0
+X-Mailer-LID: 94,93,92,91
+List-Unsubscribe: <https://h.acertouagora.com.br/painel/unsubscribe.php?M=11026684&C=263fd5027b34c18a9390d8783a04d5e1&L=92&N=48>
+X-Mailer-RecptId: 11026684
+X-Mailer-SID: 48
+X-Mailer-Sent-By: 1
+Content-Type: multipart/alternative; charset="UTF-8"; boundary="b1_54db0eb77565aa6c8e92f4a6b5fefc02"
+Content-Transfer-Encoding: 8bit
+X-Spam-Status: Yes, score=8.3
+X-Spam-Score: 83
+X-Spam-Bar: ++++++++
+X-Spam-Report: Spam detection software, running on the system "server01.extrahost.com.br",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Seu cliente de e-mail não pode ler este e-mail. Para visualizá-lo
+    on-line, por favor, clique aqui: https://h.acertouagora.com.br/painel/display.php?M=11026684&C=263fd5027b34c18a9390d8783a04d5e1&S=48
+    [...] 
+ Content analysis details:   (8.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: uploaddeimagens.com.br]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  1.0 HTML_IMAGE_ONLY_16     BODY: HTML: images with 1200-1600 bytes of
+                             words
+  0.0 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image
+                             area
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  2.4 RAZOR2_CF_RANGE_51_100 Razor2 gives confidence level above 50%
+                             [cf: 100]
+  1.7 RAZOR2_CHECK           Listed in Razor2 (http://razor.sf.net/)
+  0.3 HTML_SHORT_LINK_IMG_2  HTML is very short with a linked image
+  3.0 XM_RECPTID             Has spammy message header
+X-Spam-Flag: YES
+Subject:  ***SPAM***  =?UTF-8?B?R2FuaGUgY29tIDE0IFBvbnRvcyBuYSBMb3RvZsOhY2lsIQ==?=
+
+--b1_54db0eb77565aa6c8e92f4a6b5fefc02
+Content-Type: text/plain; format=flowed; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+
+Seu cliente de e-mail não pode ler este e-mail.
+Para visualizá-lo on-line, por favor, clique aqui:
+https://h.acertouagora.com.br/painel/display.php?M=11026684&C=263fd5027b34c18a9390d8783a04d5e1&S=48&L=92&N=4
+
+
+Para parar de receber nossos
+Emails:https://h.acertouagora.com.br/painel/unsubscribe.php?M=11026684&C=263fd5027b34c18a9390d8783a04d5e1&L=92&N=48
+
+--b1_54db0eb77565aa6c8e92f4a6b5fefc02
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+
+<html>
+<head>
+</head>
+<body>
+<table border="0" style="margin-left: auto; margin-right: auto;">
+<tbody>
+<tr>
+<td style="text-align: center;"><span style="font-family: tahoma, arial,
+helvetica, sans-serif; font-size: medium;">Premiado com 14
+Pontos na Loto-f&aacute;cil - <strong>Acerte Tamb&eacute;m<br
+/></strong></span>-<a
+href="https://h.acertouagora.com.br/painel/display.php?M=11026684&C=263fd5027b34c18a9390d8783a04d5e1&S=48&L=92&N=4">Visualizar
+e-mail com imagens</a><br /><a
+href="https://h.acertouagora.com.br/painel/link.php?M=11026684&N=48&L=59&F=H"><img
+src="https://uploaddeimagens.com.br/images/003/266/839/original/14pontospremio.jpeg"
+width="640" height="1280" title="Todo mundo est&aacute; Ganhando na
+Loto8" /></a><br /><br /><a
+href="https://h.acertouagora.com.br/painel/unsubscribe.php?M=11026684&C=263fd5027b34c18a9390d8783a04d5e1&L=92&N=48">N&atilde;o
+desejo receber estes emails</a><br />&nbsp;<span>D&ecirc;
+preferencias em fazer os Jogos Gerados pelo nosso
+Rob&ocirc; nas Loterias Online da Caixa .#FiqueEmcasa
+#JuntoscontraoCorona</span></td>
+</tr>
+</tbody>
+</table>
+<img
+src="https://h.acertouagora.com.br/painel/open.php?M=11026684&L=92&N=48&F=H&image=.jpg"
+height="1" width="10"></body>
+</html>
+
+--b1_54db0eb77565aa6c8e92f4a6b5fefc02--
+
+

@@ -1,0 +1,117 @@
+Return-Path: <prkxkdiouh@meganets.com.br>
+Delivered-To: contato+spam@marcros.com.br
+Received: from server01.extrahost.com.br
+	by server01.extrahost.com.br with LMTP
+	id cE2EJxPJ52C9SwAA3B7SeQ
+	(envelope-from <prkxkdiouh@meganets.com.br>)
+	for <contato+spam@marcros.com.br>; Fri, 09 Jul 2021 00:57:07 -0300
+Return-path: <prkxkdiouh@meganets.com.br>
+Envelope-to: contato@marcros.com.br
+Delivery-date: Fri, 09 Jul 2021 00:57:07 -0300
+Received: from mail.meganets.com.br ([177.75.188.202]:33720)
+	by server01.extrahost.com.br with esmtps  (TLS1.2) tls TLS_ECDH_anon_WITH_AES_256_CBC_SHA
+	(Exim 4.93)
+	(envelope-from <prkxkdiouh@meganets.com.br>)
+	id 1m1hdO-0005Ax-QG
+	for contato@marcros.com.br; Fri, 09 Jul 2021 00:57:07 -0300
+Received: from localhost (localhost [127.0.0.1])
+	by mail.meganets.com.br (Postfix) with ESMTP id 004D9C6D9F5;
+	Sun,  4 Jul 2021 23:38:26 -0400 (-04)
+Received: from mail.meganets.com.br ([127.0.0.1])
+	by localhost (mail.meganets.com.br [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id gY4Y_rZqo4o9; Sun,  4 Jul 2021 23:38:26 -0400 (-04)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.meganets.com.br (Postfix) with ESMTP id 9F92713D5351;
+	Thu,  1 Jul 2021 19:25:14 -0400 (-04)
+DKIM-Filter: OpenDKIM Filter v2.10.3 mail.meganets.com.br 9F92713D5351
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=meganets.com.br;
+	s=885C6794-3057-11EB-887C-D36AC5B8876D; t=1625181914;
+	bh=osH/9M/Mu3O3Xdlp8YfUitKt/keSalglgvJYg/Pbc7k=;
+	h=From:To:Date:Message-Id;
+	b=aooolYjSw2HqMwA+r9Lcm3yzG85Nzg86+xAh0JRb9U0l/bsibGcMbvnIssMWXjLOf
+	 DYSzGgMKRw35sJIxI4R2g5NIBJowYqFgabPUwdRS2F2wNVdmdmmarqpmVjE3PNAmO4
+	 PveHn2x24dJ+vBNkhzHrD1Rte241cxldaOvrzuKjv3KCB8q1aY9ReCWQJc9YsQAJJB
+	 XFwii400sMJa3nGrFB49vAO2CacHkFh4hUBSd46ULTTm6KjRGbMyWqhtX9ZDA+K/Av
+	 3CWPJGZksmQ6O1dtmD9CBA+xZlsXc2YJL9hrHTj1Eh93a1wvikbZWq/mfuJIGVzKGf
+	 EKyXEAbosqQOg==
+X-Virus-Scanned: amavisd-new at meganets.com.br
+Received: from mail.meganets.com.br ([127.0.0.1])
+	by localhost (mail.meganets.com.br [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id Ha2jKHGBaVI8; Thu,  1 Jul 2021 19:25:14 -0400 (-04)
+Received: from mail.meganets.com.br (unknown [177.75.188.193])
+	by mail.meganets.com.br (Postfix) with ESMTP id 467F2BC82D9;
+	Wed, 30 Jun 2021 17:06:37 -0400 (-04)
+From: Atuare - =?ISO-8859-1?Q?Solu=E7=F5es?= Web <prkxkdiouh@meganets.com.br>
+To: contato@marcplan.com.br
+Content-Type: text/plain
+Reply-To: contactarinfos@gmail.com
+Date: Wed, 30 Jun 2021 23:18:47 +0200
+Message-Id: <20210630210637.467F2BC82D9@mail.meganets.com.br>
+X-Spam-Status: Yes, score=7.8
+X-Spam-Score: 78
+X-Spam-Bar: +++++++
+X-Spam-Report: Spam detection software, running on the system "server01.extrahost.com.br",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Temos as melhores soluções em desenvolvimento: - Desenvolvimento
+    de sites - Loja virtual - Aplicativos mobile (App) - Software Web Para mais
+    informações sem compromisso, responda esse email com os dados abaixo: 
+ Content analysis details:   (7.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.0 HK_RANDOM_FROM         From username looks random
+  0.0 HK_RANDOM_ENVFROM      Envelope sender username looks random
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: meganets.com.br]
+  2.7 RCVD_IN_PSBL           RBL: Received via a relay in PSBL
+                             [177.75.188.202 listed in psbl.surriel.com]
+  1.3 RCVD_IN_VALIDITY_RPBL  RBL: Relay in Validity RPBL,
+                             https://senderscore.org/blocklistlookup/
+                            [177.75.188.202 listed in bl.score.senderscore.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.4 PP_MIME_FAKE_ASCII_TEXT BODY: MIME text/plain claims to be ASCII
+                              but isn't
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.0 CTE_8BIT_MISMATCH      Header says 7bits but body disagrees
+  0.1 GAPPY_SUBJECT          Subject: contains G.a.p.p.y-T.e.x.t
+  2.5 FREEMAIL_FORGED_REPLYTO Freemail in Reply-To, but not From
+  0.0 T_FILL_THIS_FORM_SHORT Fill in a short form with personal
+                             information
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Desenvolvemos sites a aplicativos     l.e.a.d 4
+
+
+Temos as melhores soluções em desenvolvimento:
+
+- Desenvolvimento de sites
+- Loja virtual
+- Aplicativos mobile (App)
+- Software Web
+
+Para mais informações sem compromisso, responda esse email com os dados abaixo:
+
+----------------------------------------------
+Nome:
+Email:
+Telefone:
+WhatsApp:
+----------------------------------------------
+
+Nossa equipe está pronta para dar a você o melhor atendimento.
+
+
+
+
+

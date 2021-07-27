@@ -1,0 +1,131 @@
+Return-Path: <rpainel3-jw4k@somdaweb.com.br>
+Delivered-To: contato+spam@marcros.com.br
+Received: from server01.extrahost.com.br
+	by server01.extrahost.com.br with LMTP
+	id MIZ8GOLW5WCLQQAA3B7SeQ
+	(envelope-from <rpainel3-jw4k@somdaweb.com.br>)
+	for <contato+spam@marcros.com.br>; Wed, 07 Jul 2021 13:31:30 -0300
+Return-path: <rpainel3-jw4k@somdaweb.com.br>
+Envelope-to: contato@marcros.com.br
+Delivery-date: Wed, 07 Jul 2021 13:31:30 -0300
+Received: from zdc3zdgyngmy.agenciadigital.we.bs ([186.251.143.251]:58655)
+	by server01.extrahost.com.br with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.93)
+	(envelope-from <rpainel3-jw4k@somdaweb.com.br>)
+	id 1m1ASK-0004zL-NT
+	for contato@marcros.com.br; Wed, 07 Jul 2021 13:31:30 -0300
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=default; d=somdaweb.com.br;
+ h=To:Subject:Message-ID:Date:From:Reply-To:MIME-Version:List-Unsubscribe:
+ Content-Type:Content-Transfer-Encoding;
+ bh=SNNqwMwcWtmjSdHYxT/IUZWTSxZrkoz2plmWj+VKNBk=;
+ b=LG/VkwFAQ/rtMJ43YTIwWWK1952N6phPM82+WF5RwywdDQbgbvPjYdJLVtm19ySzdY6WBmXP4klJ
+   Bvlg7u3cfS5/Kt0jkhTgk5UOT9qF5POcHdTDDUi4/WgyJr2mhAR/8bqim2m4gqMRBj3NQlug+1fY
+   7G+HMf40wDd3kBJDNEkHoLkiHljINziVIg7FQKjn6gyZ6KXPoemf/PU7Lj6w/zCkVA/m1K5ibxjg
+   q4muWQ26zUtQ9PkJeqOp3WGLQe07yreJy4n/z5FUa/Z+gh2OQwAhtIVJiuFcEvOKqFK0+NiThMh9
+   YDpqECngsJu99ME5dYuHZfCzKYu5ro82jxOMJg==
+To: contato@marcros.com.br
+Message-ID: <5d58fc843cbb2c18735e9053b6603c86@m.somdaweb.com.br>
+Date: Wed, 07 Jul 2021 13:30:59 -0300
+From: "=?UTF-8?B?R2FyYW50YSBQcsOqbWlv?=" <dnms@somdaweb.com.br>
+Reply-To: eevx@somdaweb.com.br
+MIME-Version: 1.0
+X-Mailer-LID: 82,81,80,79
+List-Unsubscribe: <http://m.somdaweb.com.br/painel3/unsubscribe.php?M=9771138&C=f25e78357b1bee7c97f72e4100e84b38&L=80&N=44>
+X-Mailer-RecptId: 9771138
+X-Mailer-SID: 44
+X-Mailer-Sent-By: 1
+Content-Type: multipart/alternative; charset="UTF-8"; boundary="b1_50ebfc8a8bb5a1ccfc2edd4b4df8ea92"
+Content-Transfer-Encoding: 8bit
+X-Spam-Status: Yes, score=8.3
+X-Spam-Score: 83
+X-Spam-Bar: ++++++++
+X-Spam-Report: Spam detection software, running on the system "server01.extrahost.com.br",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Seu cliente de e-mail não pode ler este e-mail. Para visualizá-lo
+    on-line, por favor, clique aqui: http://m.somdaweb.com.br/painel3/display.php?M=9771138&C=f25e78357b1bee7c97f72e4100e84b38&S=44&L=80
+    [...] 
+ Content analysis details:   (8.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: somdaweb.com.br]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.0 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image
+                             area
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  1.0 HTML_IMAGE_ONLY_16     BODY: HTML: images with 1200-1600 bytes of
+                             words
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  2.4 RAZOR2_CF_RANGE_51_100 Razor2 gives confidence level above 50%
+                             [cf: 100]
+  1.7 RAZOR2_CHECK           Listed in Razor2 (http://razor.sf.net/)
+  0.3 HTML_SHORT_LINK_IMG_2  HTML is very short with a linked image
+  3.0 XM_RECPTID             Has spammy message header
+X-Spam-Flag: YES
+Subject:  ***SPAM***  =?UTF-8?B?QWNlcnRlIGNvbSAxNCBQb250b3MgbmEgTG90by1mw6FjaWwu?=
+
+--b1_50ebfc8a8bb5a1ccfc2edd4b4df8ea92
+Content-Type: text/plain; format=flowed; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+
+Seu cliente de e-mail não pode ler este e-mail.
+Para visualizá-lo on-line, por favor, clique aqui:
+http://m.somdaweb.com.br/painel3/display.php?M=9771138&C=f25e78357b1bee7c97f72e4100e84b38&S=44&L=80&N=2
+
+
+Para parar de receber nossos
+Emails:http://m.somdaweb.com.br/painel3/unsubscribe.php?M=9771138&C=f25e78357b1bee7c97f72e4100e84b38&L=80&N=44
+
+--b1_50ebfc8a8bb5a1ccfc2edd4b4df8ea92
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+
+<html>
+<head>
+</head>
+<body>
+<table border="0" style="margin-left: auto; margin-right: auto;">
+<tbody>
+<tr>
+<td style="text-align: center;"><span style="font-family: tahoma, arial,
+helvetica, sans-serif; font-size: medium;">Premiado com 14
+Pontos na Loto-f&aacute;cil! - <strong><a
+href="http://m.somdaweb.com.br/painel3/link.php?M=9771138&N=44&L=54&F=H">Ganhe
+Tamb&eacute;m</a><br
+/></strong></span>-<a
+href="http://m.somdaweb.com.br/painel3/display.php?M=9771138&C=f25e78357b1bee7c97f72e4100e84b38&S=44&L=80&N=2">Visualizar
+e-mail com imagens</a><br /><a
+href="http://m.somdaweb.com.br/painel3/link.php?M=9771138&N=44&L=54&F=H"><img
+src="https://uploaddeimagens.com.br/images/003/266/839/original/14pontospremio.jpeg"
+width="640" height="1280" title="Todo mundo est&aacute; Ganhando na
+Loto3" /></a><br /><br /><a
+href="http://m.somdaweb.com.br/painel3/unsubscribe.php?M=9771138&C=f25e78357b1bee7c97f72e4100e84b38&L=80&N=44">N&atilde;o
+desejo receber estes emails</a><br />&nbsp;<span>D&ecirc;
+prioridade em fazer os Volantes Gerados pelo nosso
+Rob&ocirc; nas Loterias Online da Caixa .#FiqueEmcasa
+#JuntoscontraoCorona</span><a
+href="http://m.somdaweb.com.br/painel3/unsubscribe.php?M=9771138&C=f25e78357b1bee7c97f72e4100e84b38&L=80&N=44"></a></td>
+</tr>
+</tbody>
+</table>
+<img
+src="http://m.somdaweb.com.br/painel3/open.php?M=9771138&L=80&N=44&F=H&image=.jpg"
+height="1" width="10"></body>
+</html>
+
+--b1_50ebfc8a8bb5a1ccfc2edd4b4df8ea92--
+
+

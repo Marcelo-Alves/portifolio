@@ -1,0 +1,103 @@
+Return-Path: <postmaster@montv10.net>
+Delivered-To: contato+spam@marcros.com.br
+Received: from server01.extrahost.com.br
+	by server01.extrahost.com.br with LMTP
+	id EN2fGNYW52DNAQAA3B7SeQ
+	(envelope-from <postmaster@montv10.net>)
+	for <contato+spam@marcros.com.br>; Thu, 08 Jul 2021 12:16:38 -0300
+Return-path: <postmaster@montv10.net>
+Envelope-to: contato@marcros.com.br
+Delivery-date: Thu, 08 Jul 2021 12:16:38 -0300
+Received: from [185.162.126.152] (port=57369 helo=montv10.net)
+	by server01.extrahost.com.br with esmtp (Exim 4.93)
+	(envelope-from <postmaster@montv10.net>)
+	id 1m1VlQ-0000L4-Jj
+	for contato@marcros.com.br; Thu, 08 Jul 2021 12:16:38 -0300
+Received: from mail.montv10.net ([172.245.25.173]) by montv10.net with
+ MailEnable ESMTP; Thu, 8 Jul 2021 00:44:33 +0300
+From: "Hidro Pragas " <postmaster@montv10.net>
+To: contato@marcros.com.br
+Content-Type: text/plain
+Reply-To: acessenossositeabaixo@gmail.com
+Date: Wed, 7 Jul 2021 23:44:39 +0200
+X-Spam-Status: Yes, score=8.0
+X-Spam-Score: 80
+X-Spam-Bar: ++++++++
+X-Spam-Report: Spam detection software, running on the system "server01.extrahost.com.br",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Entenda por que o entupimento dos canos é mais recorrente
+   no inverno! http://hidropragas.com.br/ Nós, a empresa Hidro Pragas Desentupidora
+    e Descupinizadora, somos uma empresa técnica e especializada 
+ Content analysis details:   (8.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in
+                             bl.spamcop.net
+              [Blocked - see <https://www.spamcop.net/bl.shtml?172.245.25.173>]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: hidropragas.com.br]
+  0.9 SPF_HELO_SOFTFAIL      SPF: HELO does not match SPF record (softfail)
+  1.0 SPF_SOFTFAIL           SPF: sender does not match SPF record (softfail)
+  1.0 PP_MIME_FAKE_ASCII_TEXT BODY: MIME text/plain claims to be ASCII
+                              but isn't
+  0.1 MISSING_MID            Missing Message-Id: header
+  1.3 RDNS_NONE              Delivered to internal network by a host with no rDNS
+  0.0 CTE_8BIT_MISMATCH      Header says 7bits but body disagrees
+  2.5 FREEMAIL_FORGED_REPLYTO Freemail in Reply-To, but not From
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Desentupidora & Descupinizadora
+
+
+Entenda por que o entupimento dos canos é mais recorrente no inverno!
+
+http://hidropragas.com.br/
+
+
+Nós, a empresa Hidro Pragas Desentupidora e Descupinizadora, somos uma empresa técnica e especializada 
+
+em desentupimento e descupinização, premiada com mais de 20 anos de experiência no ramo. Oferecemos uma 
+
+ampla gama de serviços para clientes residenciais e comerciais com visita e orçamento grátis.
+
+Nenhum trabalho é muito grande ou muito pequeno, nós ajudamos você. Quando se trata de entupimento ou 
+
+cupins, somos especializados.
+
+Prestamos os mais diversos serviços 24 horas, tais como: 
+
+– Desentupimento de Pias, Ralos, Conduítes, Colunas, Coletoras, Vaso Sanitário, Esgotos em Geral, saiba 
+
+mais…
+
+ – Limpeza de Fossa Séptica ou Negra, saiba mais…
+
+– Hidrojateamento de Canos e Galerias em Geral, saiba mais…
+
+– Descupinização Contra Cupins de Solo, Cupins de Madeira Seca, Brocas “carunchos”, saiba mais…
+
+– Desinsetização contra Insetos Rasteiros e Aéreos, saiba mais…
+
+Desratização contra murídeos “ratos”, saiba mais
+
+
+Atendemos Litoral Sul, Litoral Norte, Capital, Interior.
+
+Lembre-se Qualidade e Eficiência Fazem a Diferença, Consultem-nos!
+
+São Paulo: (11) 2631-1000 – (11) 93805-3333 
+
+Litoral Sul: (13) 3032-6742 – (13) 99608-0041 
+
+Litoral Norte: (12) 99708-0325
+
+Solicite Orçamento Já! 
+
+Clique no link abaixo:
+http://hidropragas.com.br/
+
