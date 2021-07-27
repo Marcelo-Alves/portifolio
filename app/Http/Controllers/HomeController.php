@@ -17,8 +17,6 @@ class HomeController extends Controller
         ];
 
        $banco = DB::table('usuarios')->where($usuario)->get();  
-
-       //dd($banco);
         
         if(isset($banco[0])){
 
@@ -29,15 +27,9 @@ class HomeController extends Controller
             ];
             session()->put($busca_usuario);
             return redirect()->route('admin.principal'); 
-
         }
         else{
             return redirect()->route('admin.login'); 
         }
-             
-       
-       //dd($busca_usuario['usuario']);
-       //dd($request->session()->all());
-
     }
 }

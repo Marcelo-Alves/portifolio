@@ -9,7 +9,7 @@ use App\Http\Controllers\AdminPrincipalController;
 use App\Http\Controllers\AdminContatoController;
 use App\Http\Controllers\AdminNotciasController;
 use App\Http\Controllers\AdminQuemController;
-use GuzzleHttp\Psr7\Request;
+use Illuminate\Http\Request;
 
 Route::get('/',[PrincipalController::class,'index'])->name('site.home');
 Route::get('/home',[PrincipalController::class,'index'])->name('site.home');
@@ -22,7 +22,11 @@ Route::get('/painel',[HomeController::class,'index'])->name('admin.login');
 Route::post('/painel/logar',[HomeController::class,'logar'])->name('admin.logar');
 Route::get('/painel/principal', [AdminPrincipalController::class,'index'])->name('admin.principal');
 Route::get('/painel/noticias', [AdminNotciasController::class,'index'])->name('admin.noticias');
-Route::get('/painel/noticias/editor', [AdminNotciasController::class,'editor'])->name('admin.adminnoticiaseditor');
+Route::get('/painel/noticias/editor/{id?}', [AdminNotciasController::class,'editor'])->name('admin.adminnoticiaseditor');
+Route::get('/painel/noticias/deletar/{id?}', [AdminNotciasController::class,'deletar'])->name('admin.adminnoticiasdeletar');
+Route::get('/painel/noticias/inserir', [AdminNotciasController::class,'inserir'])->name('admin.adminnoticiasinserir');
+Route::post('/painel/noticias/editar', [AdminNotciasController::class,'editar'])->name('admin.adminnoticiaseditar');
+Route::post('/painel/noticias/adicionar', [AdminNotciasController::class,'adicionar'])->name('admin.adminnoticiasadicionar');
 Route::get('/painel/quem', [AdminQuemController::class,'index'])->name('admin.quem');
 Route::get('/painel/quem/editor', [AdminQuemController::class,'editor'])->name('admin.quemeditor');
 Route::post('/painel/quem/editar', [AdminQuemController::class,'editar'])->name('admin.quemeditar');
@@ -31,3 +35,5 @@ Route::get('/painel/logout', function(){
   session()->flush();
   return redirect()->route('admin.login'); 
 })->name('admin.logout');
+
+Route::post('/painel/upload', [AdminNotciasController::class,'upload'])->name('admin.upload');
