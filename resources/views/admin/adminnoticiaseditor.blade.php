@@ -10,11 +10,22 @@ Painel Notícias Editor
 
 <div class="table-responsive">
     @foreach($noticias as $noticia)
+
+
+
+
     <form action="{{route('admin.adminnoticiaseditar')}}" method="POST">
         {{ csrf_field() }}
     <label for="lbltitulo">TITULO</label>
     <input type="text" name="txttitulo" id="txttitulo" value="{{$noticia->titulo}}">
     <input type="hidden" name="txtid" id="txtid" value="{{$noticia->id}}">
+    <label for="lbltela_principal" class="form-control"><strong>EXIBE NA HOME?</strong></label>
+    <select name="txttela_principal" id="txttela_principal" class="form-control">
+       
+            <option value='1' {{$telas['sim']}} >Sim</option>
+            <option value='0' {{$telas['nao']}} >Não</option>
+               
+    </select>
     <textarea id="editor" name="editor"  rows="10" cols="80">
         {{$noticia->texto}}
     </textarea>

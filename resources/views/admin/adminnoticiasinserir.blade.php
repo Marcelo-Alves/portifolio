@@ -11,10 +11,15 @@ Painel Notícias Adicionar
 <div class="table-responsive">
     <form action="{{route('admin.adminnoticiasadicionar')}}" method="POST"  enctype="multipart/form-data">
         {{ csrf_field() }}
-    <label for="lbltitulo" class="form-control">TITULO</label>
+    <label for="lbltitulo" class="form-control"><strong>TITULO</strong></label>
     <input type="text" name="txttitulo" id="txttitulo" class="form-control">
-    <label for="lblimagem" class="form-control">Imagem Principal</label>
+    <label for="lblimagem" class="form-control"><strong>Imagem Principal</strong></label>
     <input type="file" name="imgprincipal" id="imgprincipal" class="form-control">
+    <label for="lbltela_principal" class="form-control"><strong>EXIBE NA HOME?</strong></label>
+    <select name="txttela_principal" id="txttela_principal" class="form-control">
+        <option value='1'>Sim</option>
+        <option value='0'>Não</option>
+    </select>
     <textarea id="editor" name="editor"  rows="10" cols="80">
         
     </textarea>

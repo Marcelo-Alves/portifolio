@@ -23,9 +23,28 @@ class AdminNotciasController extends Controller
 
         $id=['id'=>$request->id];
 
-        $noticia = DB::table('noticias')->where($id)->get() ; //select('select * from noticias where id=?',['id'=> $id]);
+        $noticia = DB::table('noticias')->where($id)->get() ; 
+        //select('select * from noticias where id=?',['id'=> $id]);
 
-        return view('admin.adminnoticiaseditor',['noticias'=>$noticia]);
+        //dd($noticia[0]->tela_principal);
+
+        if($noticia[0]->tela_principal == 1){
+
+            $telas = [
+                'sim'=>'selected',
+                'nao'=>'',
+            ];
+        }
+        else {
+
+            $telas = [
+                'sim'=>'',
+                'nao'=>'selected',
+            ];
+        }
+        
+
+        return view('admin.adminnoticiaseditor',['noticias'=>$noticia,'telas'=>$telas]);
     }
 
     public function inserir(){
@@ -47,6 +66,7 @@ class AdminNotciasController extends Controller
 
         $adicionar =[            
             'titulo' => $request->txttitulo,
+            'tela_principal' => $request->txttela_principal,
             'texto' => $request->editor,
             'data_criado' => date('Y-m-d H:i:s'),
             'img' => $imageName
@@ -61,9 +81,10 @@ class AdminNotciasController extends Controller
 
         $alterar =[            
             'titulo' => $request->txttitulo,
+            'tela_principal' => ($request->txttela_principal ==1?1:0),
             'texto' => $request->editor
         ];
-
+        //dd($alterar);
         DB::table('noticias')->where('id',$request->txtid)->update($alterar);
 
         return redirect()->route('admin.noticias'); 
@@ -72,9 +93,6 @@ class AdminNotciasController extends Controller
     public function deletar(Request $request){
 
         DB::table('noticias')->where('id',$request->id)->delete();
-
-        //dd($request->id);
-
 
         return redirect()->route('admin.noticias'); 
     }

@@ -17,7 +17,7 @@
     <div class="container">  
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <a class="row" href="{{route('site.home')}}">
-        <img src="{{asset('img/marcelo.jpg') }}" style = "width: 20%; border: 3px solid #FFF;" alt="Marcelo Programador" class="rounded-circle">
+        <img src="{{asset('img/marcelo.png') }}" style = "width: 20%; border: 3px solid #FFF;" alt="Marcelo Programador" class="rounded-circle">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

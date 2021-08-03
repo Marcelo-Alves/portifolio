@@ -23,8 +23,10 @@ BEM VINDO AO SITE MARCROS
             @foreach($noticias as $noticia)
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <!--<img class="card-img-top" src="/img/upload/{{$noticia->img}}" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="{{$noticia->titulo}}">-->
-                <img  src="/img/upload/{{$noticia->img}}" class="img-thumbnail" alt="{{$noticia->titulo}}">
+                @if ($noticia->img)
+                  <img  src="/img/upload/{{$noticia->img}}" class="img-thumbnail" alt="{{$noticia->titulo}}">
+                @endif
+                
                 <div class="card-body">
                   <p class="card-text"><h3>{{$noticia->titulo}}</h3></p>
                   <p class="card-text">{!! mb_strimwidth(strip_tags($noticia->texto), 0, 100, "...")!!}</p>
@@ -34,7 +36,7 @@ BEM VINDO AO SITE MARCROS
                       <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
                     </div> -->
                     <div class="btn-group">
-                      <a href='{{route("site.quem")}}/{{$noticia->id}}' class="btn btn-sm btn-outline-secondary">Ver Mais</a>
+                      <a href='{{route("site.noticia")}}/{{$noticia->id}}' class="btn btn-sm btn-outline-secondary">Ver Mais</a>
                     </div>
                     <small class="text-muted">{{date('d/m/Y H:i:s', strtotime($noticia->data_criado))}}</small>
                   </div>
