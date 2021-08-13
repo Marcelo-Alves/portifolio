@@ -44,5 +44,6 @@ BEM VINDO AO SITE MARCROS
               </div>
             </div>
             @endforeach
+</div>
 
           @endsection

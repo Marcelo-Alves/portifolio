@@ -13,29 +13,35 @@
      <link rel="stylesheet" href="{{ asset('css/jumbotron.css') }}">
    
   </head>
-  <body>    
+  <body>   
     <div class="container">  
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="row" href="{{route('site.home')}}">
-        <img src="{{asset('img/marcelo.png') }}" style = "width: 20%; border: 3px solid #FFF;" alt="Marcelo Programador" class="rounded-circle">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item  {{ (strpos(url()->current(), 'home') !== false)?'active':''}}">
-            <a class="nav-link" href="{{route('site.home')}}">Home </a>
-          </li>
-          <li class="nav-item {{ (strpos(url()->current(), 'quem') !== false)?'active':''}}" >
-            <a class="nav-link" href='{{route("site.quem")}}'>Quem sou</a>
-          </li>
-          <li class="nav-item {{ (strpos(url()->current(), 'contato') !== false)?'active':''}}">
-            <a class="nav-link" href="{{route('site.contato')}}">Contato </a>
-          </li>         
-        </ul>        
-      </div>
-    </nav>
+
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="row" href="{{route('site.home')}}">
+          <img src="{{asset('img/marcelo.png') }}" style = "width: 20%; border: 3px solid #FFF;" alt="Marcelo Programador" class="rounded-circle">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item  {{ (strpos(url()->current(), 'home') !== false)?'active':''}}">
+              <a class="nav-link" href="{{route('site.home')}}">Home </a>
+            </li>
+            <x-Artigos />
+
+            <li class="nav-item {{ (strpos(url()->current(), 'quem') !== false)?'active':''}}" >
+              <a class="nav-link" href='{{route("site.quem")}}'>Quem sou</a>
+            </li>
+            <li class="nav-item {{ (strpos(url()->current(), 'contato') !== false)?'active':''}}">
+              <a class="nav-link" href="{{route('site.contato')}}">Contato </a>
+            </li>         
+          </ul>        
+        </div>
+      </nav>
+
+
+
     <main role="main">
       <div class="album py-5 bg-light">
         
@@ -52,6 +58,7 @@
       </div>
     </footer>
   </div>
+    
     <!-- Principal JavaScript do Bootstrap
     ================================================== -->
     <!-- Foi colocado no final para a página carregar mais rápido -->

@@ -13,6 +13,15 @@ Painel Notícias Adicionar
         {{ csrf_field() }}
     <label for="lbltitulo" class="form-control"><strong>TITULO</strong></label>
     <input type="text" name="txttitulo" id="txttitulo" class="form-control">
+    <label for="lblcategoria" class="form-control"><strong>CATEGORIAS</strong></label>
+    <select id="selcategoria" name="selcategoria" class="form-control">
+        <option></option>
+        @foreach ($categorias as $categoria)
+            <option value="{{$categoria->id}}">{{$categoria->nome}}</option>
+        @endforeach
+    </select>
+
+
     <label for="lblimagem" class="form-control"><strong>Imagem Principal</strong></label>
     <input type="file" name="imgprincipal" id="imgprincipal" class="form-control">
     <label for="lbltela_principal" class="form-control"><strong>EXIBE NA HOME?</strong></label>

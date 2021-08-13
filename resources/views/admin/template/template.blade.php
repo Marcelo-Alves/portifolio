@@ -43,6 +43,9 @@
               <a class="nav-link" href="{{route('admin.noticias')}}">Notícias</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="{{route('admin.categoria')}}">Categoria</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="{{route('admin.quem')}}">Quem Sou</a>
             </li>
             <li class="nav-item">

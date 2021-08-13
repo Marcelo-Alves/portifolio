@@ -9,10 +9,11 @@ class AdminNotciasController extends Controller
 {
     public function index(){
 
-        if(session()->get('id')){
+        if(session()->get('id')){            
+            $noticias = DB::select('SELECT 
+            n.id as id, n.titulo as titulo, n.texto as texto, n.data_criado as data, n.img as img, c.id as categoria, c.nome as nome
+            FROM noticias n inner join categoria c on n.id_categoria = c.id order by n.data_criado desc');
             
-            $noticias = DB::select('select * from noticias order by data_criado desc');
-
             return view('admin.adminnoticias',['noticias'=>$noticias]);
 
         }
@@ -22,39 +23,31 @@ class AdminNotciasController extends Controller
     public function editor(Request $request){
 
         $id=['id'=>$request->id];
-
         $noticia = DB::table('noticias')->where($id)->get() ; 
-        //select('select * from noticias where id=?',['id'=> $id]);
-
-        //dd($noticia[0]->tela_principal);
-
+        $categorias = DB::table('categoria')->get();
         if($noticia[0]->tela_principal == 1){
-
             $telas = [
                 'sim'=>'selected',
                 'nao'=>'',
             ];
         }
         else {
-
             $telas = [
                 'sim'=>'',
                 'nao'=>'selected',
             ];
         }
         
-
-        return view('admin.adminnoticiaseditor',['noticias'=>$noticia,'telas'=>$telas]);
+        return view('admin.adminnoticiaseditor',['noticias'=>$noticia,'telas'=>$telas,'categorias'=>$categorias]);
     }
 
     public function inserir(){
-
-        return view('admin.adminnoticiasinserir');
+        $categorias = DB::table('categoria')->get();
+        return view('admin.adminnoticiasinserir',['categorias'=>$categorias]);
     }
 
 
     public function adicionar(Request $request){
-
        if($request->file()){
             $image = $request->file('imgprincipal');
             $imageName = 'img_'.date('ymd').time().'.'.$image->extension(); 
@@ -67,6 +60,7 @@ class AdminNotciasController extends Controller
         $adicionar =[            
             'titulo' => $request->txttitulo,
             'tela_principal' => $request->txttela_principal,
+            'id_categoria' => $request->selcategoria,
             'texto' => $request->editor,
             'data_criado' => date('Y-m-d H:i:s'),
             'img' => $imageName
@@ -78,20 +72,18 @@ class AdminNotciasController extends Controller
     }
     
     public function editar(Request $request){
-
         $alterar =[            
             'titulo' => $request->txttitulo,
             'tela_principal' => ($request->txttela_principal ==1?1:0),
+            'id_categoria' => $request->selcategoria,
             'texto' => $request->editor
         ];
-        //dd($alterar);
         DB::table('noticias')->where('id',$request->txtid)->update($alterar);
 
         return redirect()->route('admin.noticias'); 
     }
 
     public function deletar(Request $request){
-
         DB::table('noticias')->where('id',$request->id)->delete();
 
         return redirect()->route('admin.noticias'); 

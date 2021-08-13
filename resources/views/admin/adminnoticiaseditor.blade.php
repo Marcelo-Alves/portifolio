@@ -11,14 +11,19 @@ Painel Notícias Editor
 <div class="table-responsive">
     @foreach($noticias as $noticia)
 
-
-
-
     <form action="{{route('admin.adminnoticiaseditar')}}" method="POST">
         {{ csrf_field() }}
-    <label for="lbltitulo">TITULO</label>
-    <input type="text" name="txttitulo" id="txttitulo" value="{{$noticia->titulo}}">
+    <label for="lbltitulo" class="form-control"><strong>TITULO</strong></label>
+    <input type="text" name="txttitulo" id="txttitulo" value="{{$noticia->titulo}}" class="form-control">
     <input type="hidden" name="txtid" id="txtid" value="{{$noticia->id}}">
+    <label for="lblcategoria" class="form-control"><strong>CATEGORIAS</strong></label>
+    <select id="selcategoria" name="selcategoria" class="form-control">
+        <option></option>
+        @foreach ($categorias as $categoria)
+            <option value="{{$categoria->id}}" {{($noticia->id_categoria==$categoria->id?'selected':'')}} >{{$categoria->nome}}</option>
+        @endforeach
+    </select>
+
     <label for="lbltela_principal" class="form-control"><strong>EXIBE NA HOME?</strong></label>
     <select name="txttela_principal" id="txttela_principal" class="form-control">
        
@@ -38,7 +43,7 @@ Painel Notícias Editor
     
         } );
     </script>
-    <input type="submit" value="Enviar" >
+    <input type="submit" value="Enviar"  class="form-control">
     </form>
     @endforeach
 </div>   

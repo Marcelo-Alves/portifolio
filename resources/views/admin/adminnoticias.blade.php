@@ -17,7 +17,8 @@ Painel Notícias
       <thead>
         <tr>
           <th>Notícias</th>
-          <th>Texto</th>
+          <th>Categoria</th>
+          <th>Texto</th>          
           <th>Data</th>
           <th>Editar</th>
           <th>Deletar</th>
@@ -27,8 +28,9 @@ Painel Notícias
       @foreach ($noticias as $noticia)
         <tr>
           <td>{{$noticia->titulo}}</td>
+          <td>{{$noticia->nome}}</td>
           <td>{!! mb_strimwidth(strip_tags($noticia->texto), 0, 250, "...")!!}</td>
-          <td>{{date('d/m/Y H:i:s', strtotime($noticia->data_criado))}}</td>
+          <td>{{date('d/m/Y', strtotime($noticia->data))}}</td>
           <td><a href="{{route('admin.adminnoticiaseditor')}}/{{$noticia->id}}">Editar</a></td>
           <td><a href="{{route('admin.adminnoticiasdeletar')}}/{{$noticia->id}}" onclick="return deletar()">Deletar</a></td>
         </tr>
@@ -36,8 +38,7 @@ Painel Notícias
       </tbody>
     </table>
     <script>
-      function deletar(){
-         
+      function deletar(){         
           var retorno = confirm("Deseja mesmo excluir!");
           return retorno;
           
